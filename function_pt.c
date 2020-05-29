@@ -1,3 +1,4 @@
+//This is testing pointers to functions
 #include <stdio.h>
 void f1(int var){
     printf("this is f1 and var is: %d\n", var);
