@@ -1,0 +1,91 @@
+In file included from count_keywords.c:6:
+count_keywords.h:2:40: error: array type has incomplete element type ‘struct keytab’
+ int binsearch(char *word, struct keytab[], int n);
+                                        ^
+count_keywords.h:2:34: warning: ‘struct keytab’ declared inside parameter list will not be visible outside of this definition or declaration
+ int binsearch(char *word, struct keytab[], int n);
+                                  ^~~~~~
+count_keywords.c: In function ‘main’:
+count_keywords.c:7:20: error: expected ‘]’ before ‘;’ token
+ #define MAXWORD 100;
+                    ^
+count_keywords.c:17:12: note: in expansion of macro ‘MAXWORD’
+  char word[MAXWORD];
+            ^~~~~~~
+count_keywords.c:19:17: error: ‘word’ undeclared (first use in this function); did you mean ‘void’?
+  while (getword(word, MAXWORD) != EOF)
+                 ^~~~
+                 void
+count_keywords.c:19:17: note: each undeclared identifier is reported only once for each function it appears in
+count_keywords.c:7:20: error: expected ‘)’ before ‘;’ token
+ #define MAXWORD 100;
+                    ^
+count_keywords.c:19:23: note: in expansion of macro ‘MAXWORD’
+  while (getword(word, MAXWORD) != EOF)
+                       ^~~~~~~
+count_keywords.c:21:29: error: ‘keytab’ undeclared (first use in this function)
+    if ((n = binsearch(word, keytab, NKEYS)) >= 0)
+                             ^~~~~~
+count_keywords.c:21:37: error: ‘NKEYS’ undeclared (first use in this function)
+    if ((n = binsearch(word, keytab, NKEYS)) >= 0)
+                                     ^~~~~
+count_keywords.c:21:29: error: type of formal parameter 2 is incomplete
+    if ((n = binsearch(word, keytab, NKEYS)) >= 0)
+                             ^~~~~~
+In file included from getword.c:1:
+count_keywords.h:2:40: error: array type has incomplete element type ‘struct keytab’
+ int binsearch(char *word, struct keytab[], int n);
+                                        ^
+count_keywords.h:2:34: warning: ‘struct keytab’ declared inside parameter list will not be visible outside of this definition or declaration
+ int binsearch(char *word, struct keytab[], int n);
+                                  ^~~~~~
+getword.c: In function ‘getword’:
+getword.c:8:9: warning: implicit declaration of function ‘isspace’ [-Wimplicit-function-declaration]
+  while (isspace(c = getch()))
+         ^~~~~~~
+getword.c:10:11: error: ‘EOF’ undeclared (first use in this function)
+  if (c != EOF)
+           ^~~
+getword.c:10:11: note: ‘EOF’ is defined in header ‘<stdio.h>’; did you forget to ‘#include <stdio.h>’?
+getword.c:2:1:
++#include <stdio.h>
+ /* getword: get next word or character from input */
+getword.c:10:11:
+  if (c != EOF)
+           ^~~
+getword.c:10:11: note: each undeclared identifier is reported only once for each function it appears in
+getword.c:12:7: warning: implicit declaration of function ‘isalpha’ [-Wimplicit-function-declaration]
+  if (!isalpha(c)) {
+       ^~~~~~~
+getword.c:17:8: warning: implicit declaration of function ‘isalnum’ [-Wimplicit-function-declaration]
+   if (!isalnum(*w = getch())){
+        ^~~~~~~
+In file included from binary_search.c:6:
+count_keywords.h:2:40: error: array type has incomplete element type ‘struct keytab’
+ int binsearch(char *word, struct keytab[], int n);
+                                        ^
+count_keywords.h:2:34: warning: ‘struct keytab’ declared inside parameter list will not be visible outside of this definition or declaration
+ int binsearch(char *word, struct keytab[], int n);
+                                  ^~~~~~
+binary_search.c:7:5: error: conflicting types for ‘binsearch’
+ int binsearch(int x, int v[], int n);
+     ^~~~~~~~~
+In file included from binary_search.c:6:
+count_keywords.h:2:5: note: previous declaration of ‘binsearch’ was here
+ int binsearch(char *word, struct keytab[], int n);
+     ^~~~~~~~~
+binary_search.c:29:5: error: conflicting types for ‘binsearch’
+ int binsearch(int x, int v[], int n){
+     ^~~~~~~~~
+In file included from binary_search.c:6:
+count_keywords.h:2:5: note: previous declaration of ‘binsearch’ was here
+ int binsearch(char *word, struct keytab[], int n);
+     ^~~~~~~~~
+In file included from getword.c:1,
+                 from getc_unget_char.c:5:
+count_keywords.h:2:40: error: array type has incomplete element type ‘struct keytab’
+ int binsearch(char *word, struct keytab[], int n);
+                                        ^
+count_keywords.h:2:34: warning: ‘struct keytab’ declared inside parameter list will not be visible outside of this definition or declaration
+ int binsearch(char *word, struct keytab[], int n);
+                                  ^~~~~~
