@@ -1,5 +1,5 @@
 //this is a server that can receive input from client
-
+//it forks connections for differnt clients
 #include <stdlib.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
@@ -25,27 +25,27 @@ int main(int argc, char *argv[]){
     puts("waiting for connection");
     char buf[255];
     while(1){
-        int clnt_soc = accept (sockfd, (struct sockaddr *)&client_addr,
+        int clnt_socfd = accept (sockfd, (struct sockaddr *)&client_addr,
                 &address_size);
-//        send(clnt_soc, msg, strlen(msg), 0);
-        if (clnt_soc == -1)
+        if (clnt_socfd == -1)
             error("Can't open second socket");
-        if (say(clnt_soc,"<Internet Knock-Knock Protocol Server\r\nVersion 1.0\r\nKnock! Knock!\r\n>")
+
+            if (say(clnt_socfd,"<Internet Knock-Knock Protocol Server\r\nVersion 1.0\r\nKnock! Knock!\r\n>")
                 != -1){
-            read_in(clnt_soc, buf, sizeof(buf));
-            if(strncasecmp("Who's there?", buf, 12))
-                say(clnt_soc, "You should say 'Who's there?'!");
-            else{
-                if (say(clnt_soc, "Oscar\r\n> ") != -1){
-                    read_in(clnt_soc, buf, sizeof(buf));
-                    if(strncasecmp("Oscar who?", buf, 10))
-                        say(clnt_soc,"You should say 'Oscar who?'!\r\n");
-                    else
-                        say(clnt_soc, "Oscar silly question, you get a silly answer\r\n");
+                read_in(clnt_socfd, buf, sizeof(buf));
+                if(strncasecmp("Who's there?", buf, 12))
+                   say(clnt_socfd, "You should say 'Who's there?'!");
+                else{
+                   if (say(clnt_socfd, "Oscar\r\n> ") != -1){
+                         read_in(clnt_socfd, buf, sizeof(buf));
+                         if(strncasecmp("Oscar who?", buf, 10))
+                             say(clnt_socfd,"You should say 'Oscar who?'!\r\n");
+                         else
+                             say(clnt_socfd, "Oscar silly question, you get a silly answer\r\n");
                 }
             }
         }
-        close(clnt_soc);
+        close(clnt_socfd);
     }        
 return 0;
 }
