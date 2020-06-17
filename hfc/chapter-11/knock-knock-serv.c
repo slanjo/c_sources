@@ -83,7 +83,7 @@ int read_in(int socket, char *buf, int len){
 void bind_to_port(int socket, int port){
     struct sockaddr_in name;
     name.sin_family = AF_INET;
-    name.sin_port = (in_port_t) htons(port);
+    name.sin_port = (in_port_t)htons(port);
     name.sin_addr.s_addr = htonl(INADDR_ANY);
     int reuse = 1;
     if (setsockopt(socket, SOL_SOCKET, SO_REUSEADDR, (char *) &reuse, sizeof(int)) == -1)
