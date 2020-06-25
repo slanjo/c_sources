@@ -4,32 +4,32 @@
 #include <unistd.h>
 #include <errno.h>
 #include <pthread.h>
-int beers = 2000000;
+long beers = 20000000000;
 void* drink_lots(void *a);
 pthread_mutex_t beers_lock = PTHREAD_MUTEX_INITIALIZER;
 int main(){
-    pthread_t threads[20];
+    pthread_t threads[30];
     int t;
-    printf("%i bottles of beer on the wall\n%i bottles of beer\n", beers, beers);
-    for (t = 0; t < 20; t++){
+    printf("%ld bottles of beer on the wall\n%ld bottles of beer\n", beers, beers);
+    for (t = 0; t < 30; t++){
         pthread_create(&threads[t], NULL, drink_lots, NULL);
     } 
     void* result;
-    for (t = 0; t < 20; t++){
+    for (t = 0; t < 30; t++){
         pthread_join(threads[t], &result);
     }
-    printf("There are now %i bottles of beer on the wall\n", beers);
+    printf("There are now %ld bottles of beer on the wall\n", beers);
     return 0;
 }
 void* drink_lots(void *a){
     int i;
-//    pthread_mutex_lock(&beers_lock);
-    for (i = 0; i < 100000; i++){
-       pthread_mutex_lock(&beers_lock);
+    pthread_mutex_lock(&beers_lock);
+    for (i = 0; i < 1000000000; i++){
+//       pthread_mutex_lock(&beers_lock);
        beers = beers - 1;
-       pthread_mutex_unlock(&beers_lock);
+//       pthread_mutex_unlock(&beers_lock);
    }
-//    pthread_mutex_unlock(&beers_lock);
-    printf("beers = %i\n", beers);
+    pthread_mutex_unlock(&beers_lock);
+    printf("beers = %ld\n", beers);
     return NULL;
 }

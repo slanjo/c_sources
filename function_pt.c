@@ -1,14 +1,9 @@
 //This is testing pointers to functions
 #include <stdio.h>
-void f1(int var){
-    printf("this is f1 and var is: %d\n", var);
-    }
-void f2(int var){
-    printf("this is f2 and var is: %d\n", var);
-    }
-void f3(int var){
-    printf("this is f3 and var is: %d\n", var);
-    }
+
+void f1(int var);
+void f2(int var);
+void f3(int var);
 int main(){
 /* define an array full of function pointers 
 to the above functions, that take an `int` as 
@@ -24,3 +19,13 @@ of the array at index `c` with `c` as an argument */
 		}
 return 0;
 }
+void f1(int var){
+    printf("this is f1 and var is: %d\n", var);
+    }
+void f2(int var){
+    printf("this is f2 and var is: %d\n", var);
+    }
+void f3(int var){
+    printf("this is f3 and var is: %d\n", var);
+    }
+
