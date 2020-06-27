@@ -2,22 +2,33 @@
 
 ___
 ---   
-#### **   
+#### *create a string*   
 ---   
 ```
+    char s[] = "Some string here";
+```
+___
+___
+---   
+#### *functions for custom file data streams*   
+---   
+  * **fopen()**
+  * **fclose()**
+  * **fprintf()**
+  * **fscanf**
+```
+  FILE *out_file = fopen("file_name","w"); //or "r", or "a"
+  fclose(my_file);
+  FILE *in_file = fopen("file_name", "r";
+  fprintf   
+   
 ```
 ___
 ___
 ---   
 #### **   
 ---   
-```
-```
-___
-___
----   
-#### **   
----   
+
 ```
 ```
 ___
