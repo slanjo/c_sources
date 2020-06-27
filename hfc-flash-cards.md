@@ -23,13 +23,15 @@ ___
 ___
 
 [//]: # (Comments Section - needs two blank lines after this initial section
-[//]: # )
+        comment line format is:
+        [alias_name]: < > 
+        for links we can use alias names throught the document before this section) 
 
 
 [slanjo]: <https://github.com/slanjo>
 
-| Concept | Explanation | Syntax Sample |
-| --- | --- | --- |
-| union |* reusing same memory location for different data types (int, char), etc..*the created variable can only store a single piece of data at one time. | typdef union {} my_union|
-
+[table]: <| Concept | Explanation | Syntax Sample |>
+[table]: <| --- | --- | --- |>
+[table]: <| some concept name |some concept definition|something else | >
+[table]: < | | | |>
 
