@@ -68,7 +68,7 @@ int main(argc, *argv[]);
 ```
 _____  
 -----    
-### *c*** *   
+### *c***    
 -----    
   * ** **  
 ```
@@ -82,11 +82,18 @@ _____
 ```
 _____  
 -----    
-### **   
+### *string literal*   
 -----    
-  * ** **  
+  * ** ** 
+  A variable that points to a string literal cannot be used to modify the contents of a string literal.  
 ```
+char *some_char = "some_char_literal";
+```  
+  instead we'd want to use an array, which copies a literal to stack. 
 ```
+char some_char[] = "some_char_literal";
+```  
+To prevent code from modifying string literals we can use 'const char *' -HFC page 77   
 _____  
 -----    
 ### **   
