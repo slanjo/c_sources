@@ -31,7 +31,7 @@ _____
   *  **sizeof** - shows in bytes how much space something occupies in memory.  
   *  on 32-bit OSs sizeof(some_pointer) == 4, and on 64-bit, sizeof(some_pointer) == 8  
   *  C compiler is also smart enough to return the actual sizeof(array[]) eventhough  
-     array[] is only a pointer to a memory address. 
+     array[] is only a pointer to a memory address.   
 ```
     sizeof(int);
     siszeof("Turtles"); // returns 9 because of '\0'
@@ -39,10 +39,17 @@ _____
 _____  
 
 -----    
-### **   
+### *union*   
 -----    
-  * ** **  
+  1. **union**  
+  * unions allow you to 
 ```
+    typedef union{
+        short count;
+        int num;
+        fload decimal;
+    }my_union;
+
 ```
 _____  
 -----    
