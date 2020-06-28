@@ -37,7 +37,7 @@ _____
 _____  
 
 -----    
-### *union*   
+### *union*  
   *  ** **  
   *  unions allow us to create a variable that supports multiple data types.  
   so we're basically using same memory location to save different data types (int, float, char)
@@ -54,29 +54,28 @@ _____
 ```
 _____  
 -----    
-### * create a pointer array *   
+### *create a pointer array*   
   * ** **  
 ```
-    char *array[] = {"array", "of", "pointers"};
+    char *array[] = {"array", "of", "pointers"};  
 ```
 _____  
 -----    
 ### *CLI parsing*   
   * ** **  
 ```
-int main(argc, *argv[]);
-
+int main(argc, *argv[]);  
 ```
 _____  
 -----    
-### * c** *   
+### *c** *   
 -----    
   * ** **  
 ```
 ```
 _____  
 -----    
-### **   
+### *funciton pointer*   
 -----    
   * ** **  
 ```
