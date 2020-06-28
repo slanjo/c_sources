@@ -182,10 +182,16 @@ _____
 ```
 _____  
 -----    
-### **   
+### *malloc()*   
 -----    
-  * ** **  
+  * **malloc reserves an n amount of bytes on the heap **   
+  * **the reservation is done at runtime, and it will be held untill allocated memory is released **  
+  * **takes an int size of requested bytes **  
+  * **it returns void* to the first byte of the requested memory space **  
+  * **it is usually ran together with sizeof operator as we ordinarily wouldn't know the size of requested memory space **  
+  * **free() is used to release memory, each time we've used malloc
 ```
+int *p = malloc(sizeof(something));
 ```
 _____  
 -----    
