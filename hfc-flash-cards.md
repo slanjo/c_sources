@@ -42,7 +42,11 @@ _____
 ### *union*   
 -----    
   1. **union**  
-  * unions allow you to 
+  * unions allow us to create a variable that supports multiple data types.  
+  so we're basically using same memory location to save different data types (int, float, char)
+  * only one value can be stored at any point in time, and the we have to allocate  
+  the enough memory to allocate the largest data ttype. so between float, int, and double
+  we'd allocate 32 bits so we can fit a double in our union. 
 ```
     typedef union{
         short count;
