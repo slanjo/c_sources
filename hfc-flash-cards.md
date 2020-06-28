@@ -70,7 +70,7 @@ _____
 -----    
 ### *c***    
 -----    
-  * ** **  
+  * **c** is used to point to an array of strings **  
 ```
 ```
 _____  
@@ -141,9 +141,10 @@ _____
 ```
 _____  
 -----    
-### **   
+### **nix standard header directories*   
 -----    
-  * ** **  
+  * **/usr/include - normally used for operating system header files**  
+  * **/usr/local/include - normally used for header files for third-party libraries** 
 ```
 ```
 _____  
