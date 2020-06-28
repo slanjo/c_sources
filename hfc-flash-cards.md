@@ -118,16 +118,25 @@ _____
 ```
 _____  
 -----    
-### **   
+### *declaration vs definition*   
 -----    
-  * ** **  
+  * ** ** 
+  * declaration defines something exists, but definitions define what that something   
+  
 ```
 ```
 _____  
 -----    
-### **   
+### *Compilation process*   
 -----    
-  * ** **  
+  * **Preprocessor** - all preprocessors directives are ran - includes, header files are added, etc.
+  * **Translate into Assembly** - C code is translated into assembly symbols, 
+  * **Assembly** - object code is generated from Assembly code symbols. This is machine code and  
+  it will be done for every library file, our code, and any additional files included.
+  * **Linkage** - all object files generated during assembly are linked and stiched. So, functions
+  calling functions in different object code files will be stiched. Compiler will also make sure
+  calls to library funcitons are correct.  
+
 ```
 ```
 _____  
