@@ -10,7 +10,6 @@ _____
 _____  
 -----    
 ### *functions for custom file data streams*   
------    
   * **fopen()**
   * **fclose()**
   * **fprintf()**
@@ -27,7 +26,6 @@ _____
 _____  
 -----    
 ### *sizeof(int)*   
------ 
   *  **sizeof** - shows in bytes how much space something occupies in memory.  
   *  on 32-bit OSs sizeof(some_pointer) == 4, and on 64-bit, sizeof(some_pointer) == 8  
   *  C compiler is also smart enough to return the actual sizeof(array[]) eventhough  
@@ -40,7 +38,6 @@ _____
 
 -----    
 ### *union*   
------    
   *  ** **  
   *  unions allow us to create a variable that supports multiple data types.  
   so we're basically using same memory location to save different data types (int, float, char)
@@ -57,21 +54,22 @@ _____
 ```
 _____  
 -----    
-### **   
------    
+### * create a pointer array *   
   * ** **  
 ```
+    char *array[] = {"array", "of", "pointers"};
 ```
 _____  
 -----    
-### **   
------    
+### *CLI parsing*   
   * ** **  
 ```
+int main(argc, *argv[]);
+
 ```
 _____  
 -----    
-### **   
+### * c** *   
 -----    
   * ** **  
 ```
