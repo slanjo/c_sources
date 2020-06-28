@@ -1,17 +1,16 @@
 ##### HFC Reading Notes
 
-___
----   
+_____  
+-----   
 #### *create a string*   
----   
+-----    
 ```
     char s[] = "Some string here";
 ```
-___
-___
----   
+_____  
+-----    
 #### *functions for custom file data streams*   
----   
+-----    
   * **fopen()**
   * **fclose()**
   * **fprintf()**
@@ -23,15 +22,14 @@ ___
   fprintf   
    
 ```
-___
-___
----   
+_____  
+-----    
 #### **   
----   
+-----    
 
 ```
 ```
-___
+_____  
 
 [//]: # (Comments Section - needs two blank lines after this initial section
         comment line format is:
