@@ -78,8 +78,17 @@ _____
 ### *funciton pointer*   
 -----    
   * ** **  
+  * to declare a funciton pointer we use: 'ReturnType (*func_name)(param_types)';.  
+   
 ```
-```
+ReturnTYpe (*func_name)(param types);
+  char**   (*name_fn)    (char*, int);
+void find(int(match)(char**,int){
+    };
+```  
+If fp is a function pointer, we can call it with:
+fp(params...) or we can use (*fp)(params). C works the same with both.  
+
 _____  
 -----    
 ### *string literal*   
@@ -96,9 +105,15 @@ char some_char[] = "some_char_literal";
 To prevent code from modifying string literals we can use 'const char *' -HFC page 77   
 _____  
 -----    
-### **   
+### *Data types in C*   
 -----    
   * ** **  
+  * char - stores character codes for characters (A==65)
+  * short - up to a few hundred; 1/2 size of int
+  * int - guaranteed to be 16 bits, up to a few million  
+  * long - used to be double the size of ints, nowadays usually same or more. Guaranteed size of 32 
+  * float - regular daily usage decimals
+  * double - double memory size used as for float 
 ```
 ```
 _____  
