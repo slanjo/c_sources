@@ -27,7 +27,7 @@ _____
 _____  
 -----    
 ### *sizeof(int)*   
------    
+----- 
   *  **sizeof** - shows in bytes how much space something occupies in memory.  
   *  on 32-bit OSs sizeof(some_pointer) == 4, and on 64-bit, sizeof(some_pointer) == 8  
   *  C compiler is also smart enough to return the actual sizeof(array[]) eventhough  
@@ -41,11 +41,11 @@ _____
 -----    
 ### *union*   
 -----    
-  1. **union**  
-  * unions allow us to create a variable that supports multiple data types.  
+  *  ** **  
+  *  unions allow us to create a variable that supports multiple data types.  
   so we're basically using same memory location to save different data types (int, float, char)
-  * only one value can be stored at any point in time, and the we have to allocate  
-  the enough memory to allocate the largest data ttype. so between float, int, and double
+  *  only one value can be stored at any point in time, and the we have to allocate  
+  enough memory to allocate the largest data ttype. so between float, int, and double  
   we'd allocate 32 bits so we can fit a double in our union. 
 ```
     typedef union{
