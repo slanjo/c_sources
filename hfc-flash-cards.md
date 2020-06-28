@@ -1,15 +1,15 @@
-##### HFC Reading Notes
+### HFC Reading Notes
 
 _____  
 -----   
-#### *create a string*   
+### *create a string*   
 -----    
 ```
     char s[] = "Some string here";
 ```
 _____  
 -----    
-#### *functions for custom file data streams*   
+### *functions for custom file data streams*   
 -----    
   * **fopen()**
   * **fclose()**
@@ -18,18 +18,146 @@ _____
 ```
   FILE *out_file = fopen("file_name","w"); //or "r", or "a"
   fclose(my_file);
-  FILE *in_file = fopen("file_name", "r";
-  fprintf   
+  FILE *in_file = fopen("file_name", "r");
+  fprintf(stderr,"err %s", some_var);
+  fscanf(some_file,"%f %s", &some_float, &some_string);  
+  fscanf(some_file,"$80[^\n", &string), 
    
 ```
 _____  
 -----    
-#### **   
+### *sizeof(int)*   
 -----    
+  *  **sizeof** - shows in bytes how much space something occupies in memory.  
+    * on 32-bit OSs sizeof(some_pointer) == 4, and on 64-bit, sizeof(some_pointer) == 8  
+    * C compiler is also smart enough to return the actual sizeof(array[]) eventhough  
+    * array[] is only a pointer to a memory address. 
+```
+    sizeof(int);
+    siszeof("Turtles"); // returns 9 because of '\0'
+```
+_____  
 
+-----    
+### **   
+-----    
+  * ** **  
 ```
 ```
 _____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+_____  
+
 
 [//]: # (Comments Section - needs two blank lines after this initial section
         comment line format is:
