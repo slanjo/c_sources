@@ -81,8 +81,8 @@ _____
   * to declare a funciton pointer we use: 'ReturnType (*func_name)(param_types)';.  
    
 ```
-ReturnTYpe (\*func_name)(param types);
-  char\*\*   (\*name_fn)    (char*, int);
+ReturnTYpe (*func_name)(param types);
+  char**   (*name_fn)    (char*, int);
 void find(int(match)(char**,int){
     };
 ```  
