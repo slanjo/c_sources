@@ -22,7 +22,7 @@ int main(){
     
     
     
-void draw_ship(Spaceship * s){
+void draw_ship(Spaceship* s){
     ALLEGRO_TRANSFORM transform;
     al_identity_transform(&transform);
     al_rotate_transform(&transform, DEGREES(s->heading));
