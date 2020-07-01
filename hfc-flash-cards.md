@@ -195,9 +195,9 @@ int *p = malloc(sizeof(something));
 ```
 _____  
 -----    
-### **   
+### *assign a struct variable...*   
 -----    
-  * ** **  
+  * **...COPIES the data into a new variable**  
 ```
 ```
 _____  
