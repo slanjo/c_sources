@@ -27,9 +27,9 @@ int main(){
     craggy.next = &isla_nublar;
     isla_nublar.next = &shutter;
     skull.next = &shutter;
-//    printf("address of amity.next before function call is %p\n", &amity);
+    printf("address of amity.next before function call is %p\n", &amity);
 //    display(amity.next);
-//    display(&amity);
+    display(&amity);
 	return 0;
 }
 
