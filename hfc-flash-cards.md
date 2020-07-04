@@ -169,15 +169,15 @@ _____
 -----    
   * **make**  
   * **gcc -c \*.c** - compiles but doesn't link sources
-  * **gcc *.o -o program_name** links the object files into final executable
+  * **gcc \*.o -o program_name** links the object files into final executable
 ```
 ```
 _____  
 -----    
 ### *nm and ldconfig*   
 -----    
-  * **ldconfig ** it creates links and cache to the most recent shared libraries. Required by a run-time linker  
-  * **nm ** reads a shared object libraries symbols
+  * **ldconfig** it creates links and cache to the most recent shared libraries. Required by a run-time linker  
+  * **nm** reads a shared object libraries symbols
 ```
 ```
 _____  
