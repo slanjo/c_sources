@@ -167,9 +167,9 @@ _____
 -----    
 ### *make*   
 -----    
-  * **make **  
-  * **gcc -c \*.c ** - compiles but doesn't link sources
-  * **gcc *.o -o program_name ** links the object files into final executable
+  * **make**  
+  * **gcc -c \*.c** - compiles but doesn't link sources
+  * **gcc *.o -o program_name** links the object files into final executable
 ```
 ```
 _____  
