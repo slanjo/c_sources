@@ -184,21 +184,39 @@ ar -rcs libhfsecurity.a encrypt.o checksum.o
 ```
 int *p = malloc(sizeof(something));
 ```
-  
 -----    
 ### *assign a struct variable...*   
 -----    
   * **...COPIES the data into a new variable**  
 ```
 ```
-  
+-----    
+### *text stream*   
+-----    
+  * **text stream** is a sequence of characters divided into lines. Each line contains zero or more characters  
+  followd by a new line character.   
+```
+```
+-----    
+### *getchar() and putchar()*   
+-----    
+  * **getchar()** reads the next character from a text stream of characters one string at a time  
+  * **putchar()** prints a character eachtime it is called   
+```
+```
 -----    
 ### **   
 -----    
   * ** **  
 ```
 ```
-  
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+ 
 
 
 [//]: # (Comments Section - needs two blank lines after this initial section
