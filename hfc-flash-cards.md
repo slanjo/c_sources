@@ -201,14 +201,16 @@ int *p = malloc(sizeof(something));
 ### *getchar() and putchar()*   
 -----    
   * **getchar()** reads the next character from a text stream of characters one string at a time  
-  getchar returns EOF when there is no more characters to return  
+  getchar returns EOF when there is no more characters to return. EOF = -1 on linux.   
   * **putchar()** prints a character eachtime it is called   
 ```
 ```
 -----    
-### **   
+### *single quote ' '*   
 -----    
-  * ** **  
+  * **'\n'** a character between single quotes represents and integer value equal to the numerical value of the character in the machine's character set.  
+  This is called a *character constant* - basicallly another way to write a small integer! So ''A'' is a character constant, and in ASCII char set it is  
+  equal to 65. 
 ```
 ```
 -----    
