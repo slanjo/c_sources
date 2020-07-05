@@ -54,29 +54,24 @@
   
 -----    
 ### *create a pointer array*   
-  * ** **  
 ```
     char *array[] = {"array", "of", "pointers"};  
 ```
   
 -----    
 ### *CLI parsing*   
-  * ** **  
 ```
 int main(argc, *argv[]);  
 ```
   
 -----    
 ### *c***    
------    
   * **c** is used to point to an array of strings **  
 ```
 ```
   
 -----    
 ### *funciton pointer*   
------    
-  * ** **  
   * to declare a funciton pointer we use: 'ReturnType (*func_name)(param_types)';.  
    
 ```
@@ -105,7 +100,6 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
   
 -----    
 ### *Data types in C*   
------    
   * ** **  
   * char - stores character codes for characters (A==65)
   * short - up to a few hundred; 1/2 size of int
@@ -118,8 +112,6 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
   
 -----    
 ### *declaration vs definition*   
------    
-  * ** ** 
   * declaration defines something exists, but definitions define what that something   
   
 ```
