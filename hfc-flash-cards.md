@@ -66,7 +66,7 @@ int main(argc, *argv[]);
   
 -----    
 ### *c***    
-  * **c** is used to point to an array of strings **  
+  * **c** is used to point to an array of strings   
 ```
 ```
   
