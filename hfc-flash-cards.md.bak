@@ -1,13 +1,13 @@
 ### HFC Reading Notes
 
-  
+_____  
 -----   
 ### *create a string*   
 -----    
 ```
     char s[] = "Some string here";
 ```
-  
+_____  
 -----    
 ### *functions for custom file data streams*   
   * **fopen()**
@@ -23,7 +23,7 @@
   fscanf(some_file,"$80[^\n", &string), 
    
 ```
-  
+_____  
 -----    
 ### *sizeof(int)*   
   *  **sizeof** - shows in bytes how much space something occupies in memory.  
@@ -34,7 +34,7 @@
     sizeof(int);
     siszeof("Turtles"); // returns 9 because of '\0'
 ```
-  
+_____  
 
 -----    
 ### *union*  
@@ -52,28 +52,28 @@
     }my_union;
 
 ```
-  
+_____  
 -----    
 ### *create a pointer array*   
   * ** **  
 ```
     char *array[] = {"array", "of", "pointers"};  
 ```
-  
+_____  
 -----    
 ### *CLI parsing*   
   * ** **  
 ```
 int main(argc, *argv[]);  
 ```
-  
+_____  
 -----    
 ### *c***    
 -----    
   * **c** is used to point to an array of strings **  
 ```
 ```
-  
+_____  
 -----    
 ### *funciton pointer*   
 -----    
@@ -89,7 +89,7 @@ void find(int(match)(char**,int){
 If fp is a function pointer, we can call it with:
 fp(params...) or we can use (*fp)(params). C works the same with both.  
 
-  
+_____  
 -----    
 ### *string literal*   
 -----    
@@ -103,7 +103,7 @@ char *some_char = "some_char_literal";
 char some_char[] = "some_char_literal";
 ```  
 To prevent code from modifying string literals we can use 'const char *' -HFC page 77   
-  
+_____  
 -----    
 ### *Data types in C*   
 -----    
@@ -116,7 +116,7 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
   * double - double memory size used as for float 
 ```
 ```
-  
+_____  
 -----    
 ### *declaration vs definition*   
 -----    
@@ -125,7 +125,7 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
   
 ```
 ```
-  
+_____  
 -----    
 ### *Compilation process*   
 -----    
@@ -139,7 +139,7 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
 
 ```
 ```
-  
+_____  
 -----    
 ### **nix standard header directories*   
 -----    
@@ -147,7 +147,7 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
   * **/usr/local/include - normally used for header files for third-party libraries** 
 ```
 ```
-  
+_____  
 -----    
 ### *ar*   
 -----    
@@ -155,7 +155,7 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
 ```
 ar -rcs libhfsecurity.a encrypt.o checksum.o
 ```
-  
+_____  
 -----    
 ### *extern*   
 -----    
@@ -163,7 +163,7 @@ ar -rcs libhfsecurity.a encrypt.o checksum.o
   share it within your project  
 ```
 ```
-  
+_____  
 -----    
 ### *make*   
 -----    
@@ -172,7 +172,7 @@ ar -rcs libhfsecurity.a encrypt.o checksum.o
   * **gcc \*.o -o program_name** links the object files into final executable
 ```
 ```
-  
+_____  
 -----    
 ### *nm and ldconfig*   
 -----    
@@ -180,7 +180,7 @@ ar -rcs libhfsecurity.a encrypt.o checksum.o
   * **nm** reads a shared object libraries symbols
 ```
 ```
-  
+_____  
 -----    
 ### *malloc()*   
 -----    
@@ -193,21 +193,21 @@ ar -rcs libhfsecurity.a encrypt.o checksum.o
 ```
 int *p = malloc(sizeof(something));
 ```
-  
+_____  
 -----    
 ### *assign a struct variable...*   
 -----    
   * **...COPIES the data into a new variable**  
 ```
 ```
-  
+_____  
 -----    
 ### **   
 -----    
   * ** **  
 ```
 ```
-  
+_____  
 
 
 [//]: # (Comments Section - needs two blank lines after this initial section
