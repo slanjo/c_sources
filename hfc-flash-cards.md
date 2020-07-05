@@ -209,8 +209,8 @@ int *p = malloc(sizeof(something));
 ### *single quote ' '*   
 -----    
   * **'\n'** a character between single quotes represents and integer value equal to the numerical value of the character in the machine's character set.  
-  This is called a *character constant* - basicallly another way to write a small integer! So ''A'' is a character constant, and in ASCII char set it is  
-  equal to 65. 
+  This is called a *character constant* - basicallly another way to write a small integer! So `'A'` is a character constant, and in ASCII char set it is  
+  equal to 65.  `'\n'` is a single character (just an integer) and `"\n"` is a string constant that happens to contain only one character. 
 ```
 ```
 -----    
