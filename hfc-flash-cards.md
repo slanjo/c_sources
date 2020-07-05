@@ -37,7 +37,7 @@
   
 
 -----    
-### *union*  
+### *union*   
   *  ** **  
   *  unions allow us to create a variable that supports multiple data types.  
   so we're basically using same memory location to save different data types (int, float, char)
