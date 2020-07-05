@@ -201,6 +201,7 @@ int *p = malloc(sizeof(something));
 ### *getchar() and putchar()*   
 -----    
   * **getchar()** reads the next character from a text stream of characters one string at a time  
+  getchar returns EOF when there is no more characters to return  
   * **putchar()** prints a character eachtime it is called   
 ```
 ```
