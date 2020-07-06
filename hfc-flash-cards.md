@@ -214,12 +214,50 @@ int *p = malloc(sizeof(something));
 ```
 ```
 -----    
+### *check if a char is numeric*   
+-----    
+  * ** ** this uses ASCII/UTF8 code page characteristc  
+```
+if (c >= '0' && c <= '9')
+    c - '0' //represents a numercial value of c
+```
+-----    
 ### **   
 -----    
   * ** **  
 ```
 ```
- 
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+   
 
 
 [//]: # (Comments Section - needs two blank lines after this initial section
