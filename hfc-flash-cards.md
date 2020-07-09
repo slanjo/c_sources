@@ -222,13 +222,14 @@ if (c >= '0' && c <= '9')
     c - '0' //represents a numercial value of c
 ```
 -----    
-### **   
+### *XOR Operator*   
 -----    
-  * ** **  
+  * **XOR ^** operator can be used to compare two values instead of an if statement  
+  it will return True (1) only when both inputs differ.
 ```
 ```
 -----    
-### **   
+### *Bitwise and Bytewise*   
 -----    
   * ** **  
 ```
