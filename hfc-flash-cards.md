@@ -112,7 +112,8 @@ To prevent code from modifying string literals we can use 'const char *' -HFC pa
   
 -----    
 ### *declaration vs definition*   
-  * declaration defines something exists, but definitions define what that something   
+  * declaration defines something exists and defines the nature of a function or variable but not storage is allocated   
+  Definitions defines what that a variable or function exists, how it looks like, and storage is assigned to at this point.    
   
 ```
 ```
@@ -235,6 +236,36 @@ if (c >= '0' && c <= '9')
 ```
 ```
 -----    
+### *Constants*   
+-----    
+  * **Integer Constants/Floating point constants**    can be any of the float, long, int, double, unsigned or a combination
+  1234 is an integer. An integer constant that doesn't fit into an int will be a long. We mark integer constants by terminal l (ell) or L.
+  for example 123456UL is an unsigned long integer.  Floating point is an constant that contains a decimal point or  
+  an exponent (le-2). f or F indicates the float and l or L marks a long double floating point constant.  
+  * **Character Constants**  is an integer value equal to character's numerical value in machine's character set. 'x' is not the same as  
+  "x". One is a Character constant and the other is a string constant. \0 is a sentinel and has a numerical value of dec 48.  
+  * **String Constants or String Literals**  is a sequence of zero or more character constants. It is basically an array of character   
+  constants. 
+  * **Constant Expression**  an expression that involves only constants.  Can be evaluated during compilation rather than during the run time.  
+  Enums are sometimes better than *defines* as they can generate values for us.
+  ```
+\#define SOME_CONST 1;
+  ```
+  * **Enumeration constant (Enums)**  is a list of integer constants 
+```
+enum my_enum {ONE, TWO, THREE}; //these will be ONE = 1, TWO = 2, THREE = 3
+enum escapes {TAB ='\t', NEWLINE = '\n', BELL = '\a'};
+```
+-----    
+### *Automatic vs. Extern*   
+-----    
+  * **Automatic variables** appear in a function and are available as long as the function is being run. They're removed from memory   
+  after the execution.    
+  * **Extern variables** are defined in a const part of memory and are avaible through out program run. They're visible to all functions   
+  in the file and can be shared via .h files among different program files.  
+```
+```
+-----    
 ### **   
 -----    
   * ** **  
@@ -258,7 +289,19 @@ if (c >= '0' && c <= '9')
   * ** **  
 ```
 ```
-   
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+
 
 
 [//]: # (Comments Section - needs two blank lines after this initial section
