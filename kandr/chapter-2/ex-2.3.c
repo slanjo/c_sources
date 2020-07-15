@@ -12,17 +12,22 @@ void htoi(char s[],int len);
 int main()
 {
     char s[99];
+    int lead_0X;//used to notify the function if we're passing a string with "0x"
     printf("Enter your hex num: \n");
     scanf("%s", s);
     printf("s[0] = %d\n", s[0]);
-    htoi(s, strlen(s));//strlen excludes the sentinel character '\0'
+    if (s[0] == '0' && ( s[1] == 'x' || s[1] == 'X'))
+        htoi(s, lead_0X = 2);
+    else
+        htoi(s, lead_0X);//strlen excludes the sentinel character '\0'
+    
     
 }
-void htoi(char s[], int size){
+void htoi(char s[], int lead_0X){
     int i, n;
     printf("s[0] = %d\n", s[0]);
     n = 0;
-    for (i = 0; (isxdigit(s[i])) != 0 && s[i] != '\0'; ++i){
+    for (i = lead_0X; (isxdigit(s[i])) != 0 && s[i] != '\0'; ++i){
         if ( s[i] >= 'A' && s[i] <= 'F')
             n = n * 16 + (s[i] - '0') - 7;
         else if ( s[i] >= 'a' && s[i] <= 'f')
