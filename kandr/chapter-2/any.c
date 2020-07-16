@@ -1,6 +1,7 @@
-//exercise 2.4 pate 48 
-//write an alternate version of squeeze - squeeze(s1, s2) where each char that exists
-//in both s1 and s2 is removed from s1
+//exercise 2.5 page 48 
+//write a function "any" which returns a first location(position) in string s1 where a 
+//character from a string s2 occurs; or it will return a -1 if no character from s2
+//occurs in s1. 
 #include <stdio.h>
 //enum hexa {A = 10, B = 11, C = 12, D = 13, E = 14, F = 15, a = 10, b = 11, c = 12,
 //        d = 13, e = 14, f = 15};
