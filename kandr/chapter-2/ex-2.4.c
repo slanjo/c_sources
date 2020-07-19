@@ -1,3 +1,5 @@
+
+
 //exercise 2.4 pate 48 
 //write an alternate version of squeeze - squeeze(s1, s2) where each char that exists
 //in both s1 and s2 is removed from s1
