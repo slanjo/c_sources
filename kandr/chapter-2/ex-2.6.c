@@ -1,4 +1,4 @@
-//Sun 19 Jul 2020 03:14:50 PM AWST
+//Tue 21 Jul 2020 07:03:44 AM AWST
 //K&R page 49 ex 2.6
 //Write a function setbits(x, p, n, y) that return x with the n bits that begin at position
 //p set to the rightmost n bits of y, leaving the other bits unchanged. 
