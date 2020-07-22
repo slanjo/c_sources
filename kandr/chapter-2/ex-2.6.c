@@ -12,10 +12,10 @@ int main(){
     x = 27;
     y = 10;
     p = 4; */
-    n = 3;
-    x = 26;
+    n = 2;
+    x = 255;
     y = 10;
-    p = 4;
+    p = 8;
    int n_2 = 0;
 //set bit mask to equivalent of n (3) which is 7:
 //we left shift by 3 places with 0 complement which sets the 3 rightmost bits to 0
@@ -25,6 +25,7 @@ int main(){
   
     n_2 = ~(~0 << n);
     y = y & n_2;
+//    y = y | n_2;
     printf("y = %u\n", y);
 //    y = y & ~077770;
     printf("n = %u\n", n);
@@ -34,17 +35,22 @@ int main(){
 }
 int setbits(int n, int p, unsigned int x, unsigned   int y){
 //shift y to match x
-    unsigned mask = 0;
+    unsigned int mask_y, mask_x = 0;
     printf("n = %u\n", n);
     printf("y = %u\n", y);
 //  set a mask to shield p - n + 1 bits with zeroes
-    mask  =  ~(~0 << (p - n + 1));
+//    mask  =  ~(~0 << (p - n + 1));
+    mask_y  =  ~(~0 << (n));
+    mask_x  =  ~(~0 << (p - n));
 //  left shift y to the position p - 
-    y = y << (p - n + 1); 
-//    int y_shift = ( y << ( p + 1  - n ));   
-    printf("mask: %u\n", mask);
+//    y = y << (p - n + 1); 
+    y = y << (p - n); 
+    //    int y_shift = ( y << ( p + 1  - n ));   
+    printf("mask_x: %u\n", mask_x);
+    printf("mask_y: %u\n", mask_y);
     printf("y: %u\n", y);
-    y = y | mask;
+    y = y | mask_x;
+    printf("y after bitwise or: %u\n", y);
     x = x & y;
     return x;
 }
