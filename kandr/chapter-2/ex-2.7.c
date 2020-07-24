@@ -7,18 +7,27 @@ int invert(unsigned a, unsigned int b, unsigned int c);
 int main(){
     unsigned int x; 
     unsigned int n, p;
-    x = 87;
+    x = 186;
     n = 2;
     p = 6;
+    int i;
     invert(x, p, n); 
 
 
 }
 int invert(unsigned x, unsigned p, unsigned n){
-    unsigned int x_mask, x_copy, n_bits;
+    unsigned int x_mask, x_copy, n_bits, x_copy_1;
     x_copy = x;
-    n_bits = (x >> ( p + 1 - n) & ~(~0 << n)); 
-    printf("n-bits = %d\n", n_bits);
+    x_copy_1 = x;
+    int i;
+    int num_bin_dig;
+    while (x_copy_1 > 0){
+        x_copy_1 = x_copy_1 / 2;
+        num_bin_dig++;
+    }
+
+    n_bits = (x_copy >> ( p + 1 - n) & ~(~0 << n)); 
+    printf("n-bits = %d\n", ~n_bits);
 
 
     return x;
