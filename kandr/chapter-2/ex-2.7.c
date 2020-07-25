@@ -9,9 +9,9 @@ int main(){
     unsigned int n, p;
     x = 186;
     n = 2;
-    p = 6;
+    p = 5;
     int i;
-    invert(x, p, n); 
+    printf("x(%d) with inverted n(%d) bits at position p(%d) is: %d \n", x, n, p, invert(x, p, n)); 
 
 
 }
@@ -21,13 +21,15 @@ int invert(unsigned x, unsigned p, unsigned n){
     x_copy_1 = x;
     int i;
     int num_bin_dig;
-    while (x_copy_1 > 0){
-        x_copy_1 = x_copy_1 / 2;
-        num_bin_dig++;
-    }
-
-    n_bits = (x_copy >> ( p + 1 - n) & ~(~0 << n)); 
-    printf("n-bits = %d\n", ~n_bits);
+//    while (x_copy_1 > 0){
+//        x_copy_1 = x_copy_1 / 2;
+//        num_bin_dig++;
+//    }
+    x_mask = ~(~0 << n); //create a mask with 0s at far right "n" positions
+    x_mask = x_mask << (p + 1 - n);
+    x = x ^ x_mask;
+//    n_bits = (x_copy >> ( p + 1 - n) & ~(~0 << n)); 
+//    printf("n-bits = %d\n", ~n_bits);
 
 
     return x;
