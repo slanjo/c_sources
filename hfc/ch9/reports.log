@@ -1,0 +1,18 @@
+append now
+ Mon Jun  1 09:14:33 2020
+
+append again tomorrow
+ Mon Jun  1 09:14:46 2020
+
+test
+ Mon Jun  1 09:27:43 2020
+
+test 1
+ Mon Jun  1 09:27:49 2020
+
+&& ls / && echo
+ Mon Jun  1 09:28:30 2020
+
+
+ Mon Jun  1 09:29:09 2020
+
