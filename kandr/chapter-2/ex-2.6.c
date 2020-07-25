@@ -21,7 +21,7 @@ int main(){
 //we left shift by 3 places with 0 complement which sets the 3 rightmost bits to 0
 //then than we do one's complement to set rightmost 3 bits to "1". that equals 7
 //then we to bitwise and to set y to the value of 3 rightmost bits - 3 in this case
-//this can also be done manually by y = y & ~077770;
+//this can also be done by y = y & ~077770;
   
     n_2 = ~(~0 << n);
     y = y & n_2;

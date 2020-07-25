@@ -266,15 +266,18 @@ enum escapes {TAB ='\t', NEWLINE = '\n', BELL = '\a'};
 ```
 ```
 -----    
-### **   
+### *bitwise vs. bytewise*   
 -----    
   * ** **  
 ```
+&&, ||, !
+&, |, ~
 ```
 -----    
-### **   
+### *~(~0 << n)*   
 -----    
-  * ** **  
+  * **~(~0 << n)** ~0 is all ones. Shifting ~0 by "n" to left sets "n"-far-right bits to 0  
+  then we complement (~) which creates a mask with all 1s at far right bits.  
 ```
 ```
 -----    
