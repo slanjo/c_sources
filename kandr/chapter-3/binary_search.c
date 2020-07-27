@@ -5,14 +5,14 @@
 #include <unistd.h>
 #include "/home/slanjo/Programming/C/kandr/chapter-6/count_keywords.h"
 int binsearch(int x, int v[], int n);
-
-
 int main(){
-	int x  = 1110;
+	int x  = 2;
 	int y;	
 	int v[] = {1,2,18,22,23,35,36,44,45,51,52,61,64,156,11110};
 	int n = (int) (sizeof(v)/sizeof(int));
-	//printf("n = %i\n", n);
+//	int n =  15;
+    
+    printf("n = %i\n", n);
 	y = binsearch(x, v, n);
 	printf("y = %i\n", y);
 	if (y == -1)
