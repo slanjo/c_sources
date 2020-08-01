@@ -22,6 +22,7 @@ int main(){
     printf("string s is: %s\n", s);
    
     escape(s, t);
+    epacse(s, char t[]);
     return 0;
 }
 
@@ -56,6 +57,8 @@ void epacse(char s[], char t[]){
     for (i = 0; i < 100; i++){
         switch (s[i]) {
             case '\\':
+                if (s[i+1] == 't')
+                        t[i] = "\n";
                 break;
             
             case '\t':{
