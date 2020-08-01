@@ -281,16 +281,30 @@ enum escapes {TAB ='\t', NEWLINE = '\n', BELL = '\a'};
 ```
 ```
 -----    
-### **   
+### *(!fork())*   
 -----    
-  * ** **  
+  * **(!fork())**returns -1 if error 0 for the child and x > 0 for the parent  so:  
+  for the child for returns 0, and expression !(fork) is the same as fork() == 0. In C  
+  !0 equals 1 so we basically have a condition of the "if" statement evaluta to true if fork
+  has returned zero. It will not be true for any other value. 
+  !5 will not evaluate to 1 so the statements inside the the "if" wouldn't run.   
+  In C, boolean values are commonly represented by integers. The comparison operators (>, ==, !, etc)  
+  are defined to return a signed integer result, either 0 if false, or 1 for true.   
+  Logical operators and condition testing statements (if, while) assume that zero is false,
+  and all other values are true. 
+  So when fork returns a 0, "!" operator makes it a "1" so the condition in parens i.e.(!fork()) then   
+  evaluates to True because if/while assumes True.  
+  The expression (!fork()) without error check (-1 from fork) is poor practice.  
+
 ```
 ```
 -----    
-### **   
+### *clear/erase a struct*   
 -----    
-  * ** **  
+  * **memset(&hints,0,sizeof(hints))** will write zeroes starting at &hints moving forwards by   
+  hints bytes.  
 ```
+void *memset(void *s, int c, size_t n);  
 ```
 -----    
 ### **   
