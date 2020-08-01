@@ -21,8 +21,10 @@ int main(){
 //    printf("string s is: %s\n", s);
     escape(s, t);
     printf("string s after ESCAPE loop: %s\n", s);
-    for (k = 0; k < 100; k++)
-        t[k] = 0;
+
+//zeroize T    
+//    for (k = 0; k < 100; k++)
+//        t[k] = 0;
     epacse(s, t);
     return 0;
 }
@@ -54,6 +56,7 @@ void escape(char s[], char t[]){
 void epacse(char s[], char t[]){
     int i, j;
     j = 0;
+    printf("string t passed to epacse: %s\n", t);
     for (i = 0; i < 100; i++){
         if (s[i] == '\\'){
         switch (s[i+1]) {
