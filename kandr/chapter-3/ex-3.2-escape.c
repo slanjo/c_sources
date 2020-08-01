@@ -22,15 +22,15 @@ int main(){
     escape(s, t);
     printf("string s after ESCAPE loop: %s\n", s);
 
-//zeroize T    
-//    for (k = 0; k < 100; k++)
-//        t[k] = 0;
+//zeroize T that was changed by "escape" function   
+    for (k = 0; k < 100; k++)
+        t[k] = 0;
     epacse(s, t);
     return 0;
 }
 void escape(char s[], char t[]){
 //    printf("string s is: %s\n", s);
-    int i, j;
+    int i, j;//i is used to walk the "s" array, j used to write into "t" array
     j = 0; 
     for (i = 0; i < 100  ; i++){
         switch (s[i]) {
@@ -62,7 +62,7 @@ void epacse(char s[], char t[]){
         switch (s[i+1]) {
             case 't':
                 t[j] = '\t';
-                i++;
+                i++;//if our case found a match on a 2nd char following a "\" we want to skip reading it
                 j++;
                 break;
             case 'n':{
