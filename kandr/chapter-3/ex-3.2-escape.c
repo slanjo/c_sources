@@ -5,16 +5,20 @@
 #include <stdio.h>
 #define ARR_SIZE 100
 void escape(char s[], char t[]);
+void epacse(char s[], char t[]);
 int main(){
-    char s[] = "abc def     fasfda"; 
+    char s[100];
+
+//    char s[] = "abc def     fasf		da      "; 
+    char u[100];
     char t[ARR_SIZE];
     int k = 0;
 
-    while(!EOF){   
-        s[k] = getchar();
+    while((s[k] = getchar()) != EOF){   
         k++;
-    } 
-//    scanf("%s", s);
+    }
+    s[k+1] = '\0'; 
+//    scanf("%s", u);
     printf("string s is: %s\n", s);
    
     escape(s, t);
@@ -22,21 +26,51 @@ int main(){
 }
 
 void escape(char s[], char t[]){
-    printf("string is: %s\n", s);
-    int i, k;
-    for (i = 0; i < 100; i++){
+    printf("string s is: %s\n", s);
+    int i, j;
+    j = 0; 
+    for (i = 0; i < 100  ; i++){
         switch (s[i]) {
-            case '\t':
-                t[i] = 't';
-            case '\n':{
-                t[i] = '\n';
-                printf("T[i]: %c", t[i]);
-                      }
-            default:
-                t[i] = s[i];
+            case '\n':
+                t[j] = '\\';
+                t[j+1] = 'n';
+                j+=2;
+                break;
+            case '\t':{
+                t[j] = '\\';
+                t[j+1] = 't';
+//                printf("T[i]: %c%c\n", t[i],t[i+1]);
+                j+=2;
+                break;      }
+            default: 
+                t[j] = s[i];
+                j++;     
+                break;
         }
     }
     printf("string t is: %s\n", t); 
 
 }
+void epacse(char s[], char t[]){
+    int i, j;
+    for (i = 0; i < 100; i++){
+        switch (s[i]) {
+            case '\\':
+                break;
+            
+            case '\t':{
+                t[j] = '\\';
+                t[j+1] = 't';
+                j+=2;
+                break;      }
+            default: 
+                t[j] = s[i];
+                j++;     
+                break;
+        }
 
+    }
+
+
+
+}

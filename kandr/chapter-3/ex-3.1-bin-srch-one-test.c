@@ -6,7 +6,7 @@ int binsearch_one_test(int x, int v[], int n);
 int compar (const void* p1, const void *p2);
 int main(){
     int v[1000], i, j, n, x;
-    x = 43;
+    x = 999;
     for (i = 0; i < 1000; i++)
         v[i] = rand() % 1000;
     n = sizeof(v) / sizeof(int);
@@ -22,12 +22,13 @@ int main(){
 }
 int binsearch(int x, int v[], int n){
     int low, mid, high;
-    v[500] = 43;
+    v[990] = 999;
     printf("v[499] is %d\n", v[499]);
     printf("v[500] is %d\n", v[500]);
 
     mid = high = low = 0;
     high = n - 1;
+//    mid = ( high + low) / 2;
     while (low <= high && x != v[mid]){
         if (x < v[mid])
             high = mid - 1;
