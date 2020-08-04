@@ -1,19 +1,20 @@
-//Tue 04 Aug 2020 06:25:24 AM AWST
-//itoa convert an integer n to characters in s
+//Wed 05 Aug 2020 05:35:14 AM AWST
+//modify itoa from page 64 to print n = -(2^(wordsize-1)) correctly
 #include <stdio.h>
 #include <string.h>
+#include <limits.h>
 #define AR_SIZE 100
-void itoa(long int n, char s[]);
+void itoa(int n, char s[]);
 char* reverse(char s[]);
 int main(){
-    long int n; 
+    int n;
     int sign;
-    n = 9999999999999999;
+    n = -2147483647;
     char s[AR_SIZE];
     itoa(n, s);
     return 0;
 }
-void itoa(long int n, char s[]){
+void itoa(int n, char s[]){
     int i, sign;
 
     if ((sign = n) < 0) //record the sign
@@ -31,11 +32,11 @@ void itoa(long int n, char s[]){
 void reverse(char s[]){
 
     int c, i, j;
-        for (i = 0, j = strlen(s) -1; i < j; i++, j--) {
-                c = s[i];
-                        s[i] = s[j];
-                                s[j] = c;
-                                    }
+    for (i = 0, j = strlen(s) -1; i < j; i++, j--) {
+        c = s[i];
+        s[i] = s[j];
+        s[j] = c;
+        }
 }
 */
 char* reverse(char s[]){

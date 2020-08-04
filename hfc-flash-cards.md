@@ -307,6 +307,44 @@ enum escapes {TAB ='\t', NEWLINE = '\n', BELL = '\a'};
 void *memset(void *s, int c, size_t n);  
 ```
 -----    
+### *manifest constant*   
+-----    
+  * **manifest constants** are prefixed by "__" double underscores and are to be used by compiler 
+  implementation exclusively. 
+
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
+### **   
+-----    
+  * ** **  
+```
+```
+-----    
 ### **   
 -----    
   * ** **  
