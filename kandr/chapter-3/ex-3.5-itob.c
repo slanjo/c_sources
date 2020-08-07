@@ -9,36 +9,38 @@
 #include <string.h>
 #define AR_SIZE 100
 enum hexa {A = 10, B = 11, C = 12, D = 13, E = 14, F = 16}; 
-void itob(int n, char s[], int b);
+void itob(unsigned int n, char s[], int b);
 char* reverse(char s[]);
 int main(){
-    int n, b;
+    int n, b, k;
     int sign;
+    int test[20] = {1, 2, 3, 4, 5, 6, 7, 8, 9 , 10, 11, 12, 13, 14, 15, 16, 17, 3003, 256, 2782};
     b = 16;
-    printf("INT_MIN: %d\n", INT_MIN);
+//    printf("INT_MIN: %d\n", INT_MIN);
 //    n = INT_MIN;
-//    n = 256;
-    n = 256;
+//    n = 3003;
+//    n = 3003;
     char s[AR_SIZE];
-    itob(n, s, b);
+    for (k = 0; k < 20; k++)
+        itob( test[k], s, b);
     return 0;
 }
-void itob(int n, char s[], int b){
+void itob(unsigned int n, char s[], int b){
     int i, sign;
     unsigned int n2, n3;
-    n3 = (A || B || C || D || E || F);
-    sign = n;
+    n2 = n; 
     if ((sign = n) < 0) //record the sign
         n2 = -n;
     i = 0;
     do {     //generate digits in reverse order
-        if ((n3 = n2 % b) == (A || B || C || D || E || F)){
-            s[i++] = n3 + '0';  //get next digit 
-            printf("Code is: %i\n", n2 % b );
+        if ((n3 = (n2 % b)) == (A || B || C || D || E || F)){
+            s[i++] = n3 +  16;  //get next digit 
+            printf("String(IF) is: %i\n", n2 % b );
         }
         else
             s[i++] = (n3 = (n2 % b)) + '0';
-    } while ((n2 /= b) > 0);  //while (n /= 10); //w   //delete it
+            printf("String(ELSE) is: %i\n", n2 % b );
+   } while ((n2 /= b) > 0);  //while (n /= 10); //w   //delete it
     if (sign < 0)
         s[i++] = '-';
     s[i] = '\0';
