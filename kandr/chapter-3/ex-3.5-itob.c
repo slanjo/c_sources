@@ -33,8 +33,8 @@ void itob(unsigned int n, char s[], int b){
         n2 = -n;
     i = 0;
     do {     //generate digits in reverse order
-        if ((n3 = (n2 % b)) == (A || B || C || D || E || F)){
-            s[i++] = n3 +  16;  //get next digit 
+        if (((n3 = (n2 % b)) <= 16) && (n3 >= 10)){ 
+            s[i++] = n3 + (7 + '0');  //get next digit 
             printf("String(IF) is: %i\n", n2 % b );
         }
         else
