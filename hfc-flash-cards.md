@@ -315,15 +315,19 @@ void *memset(void *s, int c, size_t n);
 ```
 ```
 -----    
-### **   
+### *external linkage*   
 -----    
-  * ** **  
+  * **external linkage**  is a property where all references to external variables and functions
+  by the same name are references to the same thing.       
 ```
 ```
 -----    
-### **   
+### *function declaration definition*   
 -----    
-  * ** **  
+  * **if a function declaration**  is contectual i.e. the function is implicitly declared in an expression  
+  such as 'sum += atof(line);' it is declared to be the function name and the return type is implied to be int. If the function 
+  has been declared with arguments all parameter checking is turned off.  In general if a function is declared and it takes  
+  arguments declare them. If it has no arguments us (void).      
 ```
 ```
 -----    
