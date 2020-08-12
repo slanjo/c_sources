@@ -7,8 +7,9 @@
 double atoff(char s[]){
     double val, power;
     int i, sign, k;
-    int exp, sign2;
-
+    int exp, n, exp1, sign2; //exp = exponent in scientific notation, sign2 - 
+    sign2 = 0;                      //sign2 used for expressing exponent value
+    exp1 = 1;
     for (i = 0; isspace(s[i]); i++) //skip white space
             ;
     sign = (s[i] == '-')? -1 : 1;
@@ -22,23 +23,28 @@ double atoff(char s[]){
         val = 10.0 * val + (s[i] - '0');
         power *= 10.0;
     }
-    if (s[i] == 'e' || s[i] == 'E')
+    if (s[i] == 'e' || s[i] == 'E'){
         i++;
+    }
     if (s[i] == '-'){
         sign2 = -1;
         i++;
     }
-    else if (s[i] == '+'){
+    if (s[i] == '+'){
         sign2 = 1;
         i++;
     }
     else
-        sign2 = 1;
+        ;
     for (exp = 1; isdigit(s[i]); i++)
         exp = 10 * exp +  (s[i] - '0');
-    for (k = 0; k < exp; k++)
-        exp *= 10;
-    return exp * sign2 * sign * val / power;
+    if (sign2 > 0 ){
+        for (k = 1; k <= exp; k++)
+            exp1 *=  10;
+    }
+    if (sign2 == -1)
+        exp1 = (double) 1 / exp1;
+    return exp1 *  sign * val / power;
 }
 int main(){
     double sum, atof(char []);
