@@ -5,9 +5,9 @@
 #include <stdio.h> 
 #define MAXLINE 100
 double atoff(char s[]){
-    double val, power;
+    double val, power, exp1;
     int i, sign, k;
-    int exp, n, exp1, sign2; //exp = exponent in scientific notation, sign2 - 
+    int exp, n, sign2; //exp = exponent in scientific notation, sign2 - 
     sign2 = 0;                      //sign2 used for expressing exponent value
     exp1 = 1;
     for (i = 0; isspace(s[i]); i++) //skip white space
@@ -34,20 +34,17 @@ double atoff(char s[]){
         sign2 = 1;
         i++;
     }
-    else
-        ;
-    for (exp = 1; isdigit(s[i]); i++)
+    //if there was scientific notation convert it to proper values
+    for (exp = 0; isdigit(s[i]); i++)
         exp = 10 * exp +  (s[i] - '0');
-    if (sign2 > 0 ){
-        for (k = 1; k <= exp; k++)
-            exp1 *=  10;
-    }
+    for (k = 1; k <= exp; k++)
+        exp1 *=  10.0;
     if (sign2 == -1)
-        exp1 = (double) 1 / exp1;
+        exp1 = (double) ( 1 / exp1);
     return exp1 *  sign * val / power;
 }
 int main(){
-    double sum, atof(char []);
+    double sum, atoff(char []);
     char line[MAXLINE];
     int getlinee(char line[], int max);
 
@@ -61,13 +58,9 @@ int getlinee(char s[], int lim)
     int c, i;
     i = 0;
     while (--lim > 0 && (c = getchar()) != EOF && c != '\n')
-//        for (i = 0; i < lim-1 && (c = getchar ()) != EOF && c != '\n'; ++i)
-//    s[i] = c;
     s[i++] = c;
     if (c == '\n') {
-//        s[i] = c;
         s[i++] = c;
-//        ++i;
     }
     s[i] = '\0';
     return i;
