@@ -16,6 +16,10 @@ main()
             case NUMBER:
                 push(atof(s));
                 break;
+            case NEGATIVE:
+                printf("NEGATIVE %i", NEGATIVE);
+                push(-atof(s));
+                break;
             case '+':
                 push(pop() + pop());
                 break;
@@ -30,6 +34,14 @@ main()
                 op2 = pop();
                 if (op2 != 0.0)
                     push(pop() / op2);
+                else
+                    printf("error: zero divisor\n");
+                break;
+//Exercise 4.3 Modulus and Negative numbers
+            case '%':
+                op2 = pop();
+                if (op2 != 0.0)
+                    push( (int) pop() % (int) op2);
                 else
                     printf("error: zero divisor\n");
                 break;

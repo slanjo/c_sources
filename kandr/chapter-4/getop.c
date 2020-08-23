@@ -6,21 +6,31 @@
 int getch(void);
 void ungetch(int);
 int getop(char s[]){
-    int i, c;
+    int i, c, sign;
+    sign = 1;
     while ((s[0] = c = getch()) == ' ' || c == '\t')
         ;
     s[1] = '\0';
-    if (!isdigit(c) && c != '.')
+
+    if (!isdigit(c) && c != '.' && c != '-')
         return c;               //not a number
     i = 0;
-    if (isdigit(c))             //collect integer part
+    if ( (c == '-') && (isdigit(s[++i] = c = getch()))) {
+        sign = -1;
+        while (isdigit(s[++i] = c = getch()))   //collect integer part
+            ;
+    }
+    else if (c == '-')
+        return c;
+    else if (isdigit(c)) {                      //collect integer part
         while (isdigit(s[++i] = c = getch()))
             ;
-    if (c == '.')               //collect fraction part
+    }
+    if (c == '.')                               //collect fraction part
         while (isdigit(s[++i] = c = getch()))
             ;
     s[i] = '\0';
     if (c != EOF)
         ungetch(c);
-    return NUMBER;
+    return NUMBER * sign;
 }
