@@ -16,10 +16,9 @@ main()
             case NUMBER:
                 push(atof(s));
                 break;
-            case NEGATIVE:
-                printf("NEGATIVE %i", NEGATIVE);
-                push(-atof(s));
-                break;
+            case NEG_NUMS:
+                push(atof(s));
+                break; 
             case '+':
                 push(pop() + pop());
                 break;

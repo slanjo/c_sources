@@ -21,4 +21,3 @@ double pop(void){
         return 0.0;
     }
 }
-    
