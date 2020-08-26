@@ -15,26 +15,19 @@ int getop(char s[]){
     if (!isdigit(c) && c != '.' && c != '-') /* && c != '-'*/
         return c;               //not a number
     i = 0;
-    
-    if ( (c == '-') && (isdigit(s[++i] = c = getch()))) {
-        while (isdigit(s[++i] = c = getch()))   //collect integer part
-            ;
-    } 
-    else //(c == '-')
-        return c;
-    if (isdigit(c)) {                      //collect integer part
-        while (isdigit(s[++i] = c = getch()))
-            ;
+    if  (c == '-')  {
+        if (isdigit(k = getch())){
+            if ((k != EOF) && (k != ' '))  {
+                s[1] = k;
+                s[2] = '\0';
+//                ungetch(k);
+                c = k;
+            }
+            else 
+                return c;
+        }
     }
-    /*solution from https://clc-wiki.net/wiki/K%26R2_solutions:Chapter_4:Exercise_3 menonsahab's 
-    if (c == '-')
-    {
-        k = getch();
-        if(k == ' ')
-            return c;
-        else 
-            ungetch(k);
-    }*/
+    i = 1;
     if (isdigit(c))  {                      //collect integer part
         while (isdigit(s[++i] = c = getch()))
             ;
