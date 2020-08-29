@@ -8,6 +8,7 @@ void ungetch(int);
 int getop(char s[]){
     int i, c, k, sign;
     sign = 1;
+    int size = 0;
     while ((s[0] = c = getch()) == ' ' || c == '\t')
         ;
     s[1] = '\0';
@@ -15,26 +16,37 @@ int getop(char s[]){
     if (!isdigit(c) && c != '.' && c != '-') /* && c != '-'*/
         return c;               //not a number
     i = 0;
-    if  (c == '-')  {
-        if (isdigit(k = getch())){
-            if ((k != EOF) && (k != ' '))  {
-                s[1] = k;
-                s[2] = '\0';
-//                ungetch(k);
-                c = k;
-            }
-            else 
-                return c;
+    if  ((c == '-') && (isdigit(s[++i] = k = getch()))){
+        if (isdigit(k)){
+            while (isdigit(s[++i] = k = getch()))
+            ;
         }
+        if (k == '.'){
+            while (isdigit(s[++i] = k = getch()))
+            ;
+        }
+        s[i] = '\0';
+//        for ( int j = sizeof(s[i]) + 1; j >= 0; j--){
+//                s[j] = s[j - 1];
+//            }
+        s[0] = '-';
+        if (k != EOF)
+            ungetch(k);
+        return NUMBER;
     }
-    i = 1;
+    else if (c == '-')
+       return c; 
+    i = 0;
+//    i = 1;
+//    ungetch(c);
     if (isdigit(c))  {                      //collect integer part
         while (isdigit(s[++i] = c = getch()))
             ;
     } 
-    if (c == '.')                               //collect fraction part
+    if (c == '.'){                               //collect fraction part
         while (isdigit(s[++i] = c = getch()))
             ;
+    }
     s[i] = '\0';
     if (c != EOF)
         ungetch(c);
