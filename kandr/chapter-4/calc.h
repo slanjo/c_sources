@@ -2,6 +2,9 @@
 #define NUMBER '0'  // signal that a nubmer was found
 #define NEG_NUMS 'N' // 4-3 provisions for negative numbers
 #define MAXOP 100
+#define DUP 'D'
+#define PRN 'P'
+double prn(void);
 void push(double);
 double pop(void);
 int getop(char []);

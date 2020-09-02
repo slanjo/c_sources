@@ -16,6 +16,10 @@ main()
             case NUMBER:
                 push(atof(s));
                 break;
+//solution to 4-4 PRN
+            case PRN:
+                printf("Top of the stack is %f\n", prn());
+                break;
             case '+':
                 push(pop() + pop());
                 break;

@@ -3,6 +3,7 @@
 #define MAXVAL 100      //maximum depth of val stack
 
 int sp = 0;             //next free stack position
+int k = 0;
 double val[MAXVAL];     //value stack
 //push: push f onto value stack
 
@@ -16,6 +17,15 @@ void push(double f){
 double pop(void){
     if (sp > 0)
         return val[--sp];
+    else {
+        printf("error: stack empty\n");
+        return 0.0;
+    }
+}
+double prn(void){
+    if (sp < MAXVAL){
+        return val[sp]; 
+    }
     else {
         printf("error: stack empty\n");
         return 0.0;
