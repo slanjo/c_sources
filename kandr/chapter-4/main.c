@@ -16,9 +16,17 @@ main()
             case NUMBER:
                 push(atof(s));
                 break;
-//solution to 4-4 PRN
+//solution to 4-4 PRN print the top of the stack
             case PRN:
                 printf("Top of the stack is %f\n", prn());
+                break;
+//solution to 4-4 Clear top of the statck
+            case CLR:
+                printf("Top of the stack is %f\n", clr());
+                break;
+//solution to 4-4 DUPlicate the top of the stack
+            case DUP:
+                printf("Top of the stack is %f\n", dpl());
                 break;
             case '+':
                 push(pop() + pop());

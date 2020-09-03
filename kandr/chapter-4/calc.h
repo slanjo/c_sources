@@ -4,7 +4,10 @@
 #define MAXOP 100
 #define DUP 'D'
 #define PRN 'P'
+#define CLR 'C'
+double clr(void);
 double prn(void);
+double dpl(void);
 void push(double);
 double pop(void);
 int getop(char []);
