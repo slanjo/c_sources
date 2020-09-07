@@ -5,7 +5,9 @@
 #define DUP 'D'
 #define PRN 'P'
 #define CLR 'C'
+#define SWP 'S'
 double clr(void);
+double swp(void);
 double prn(void);
 double dpl(void);
 void push(double);

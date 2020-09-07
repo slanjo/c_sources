@@ -2,7 +2,10 @@
 //chapter 4.3 page 76 - Reverse Polish Calculater
 #include <stdio.h>
 #include <stdlib.h> //to get atof()
+#include <math.h>
+#include <errno.h>
 #include "calc.h"
+
 //#define MAXOP 100   // max size of operand or operator
 
 main()
@@ -27,6 +30,9 @@ main()
 //solution to 4-4 DUPlicate the top of the stack
             case DUP:
                 printf("Top of the stack is %f\n", dpl());
+                break;
+            case SWP:
+                printf("Swapped top to stack elements %f\n", swp());
                 break;
             case '+':
                 push(pop() + pop());
@@ -54,7 +60,8 @@ main()
                     printf("error: zero divisor\n");
                 break;
             case '\n':
-                printf("\t%.8g\n", pop());
+//                printf("\t%.8g\n", pop());
+                printf("Top of stackk\t%.8g\n", prn()); 
                 break;
             default:
                 printf("error: unknown command %s\n", s);

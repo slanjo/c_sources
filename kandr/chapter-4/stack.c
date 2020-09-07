@@ -25,7 +25,7 @@ double pop(void){
 //Exercise 4.4 Print top of the stack without Pop
 double prn(void){
     if (sp < MAXVAL){
-        return val[sp]; 
+        return val[sp-1]; 
     }
     else {
         printf("error: stack empty\n");
@@ -49,6 +49,19 @@ void dpl(void){
     if (sp < MAXVAL){
         k = sp - 1;
         val[sp] = val[k];
+    }
+    else
+        printf("error: stack full, cant' push %g\n", val[k]);
+}
+//Exercise 4.4 Swap top two values on the stack
+double swp(void){
+    if (sp < MAXVAL){
+        double temp = 0;
+        int j = sp - 1;
+        int l = sp - 2;
+        temp = val[j];
+        val[j] = val[l];
+        val[l] = temp;
     }
     else
         printf("error: stack full, cant' push %g\n", val[k]);
