@@ -1,5 +1,5 @@
 /* Card Evaluation program
- * by Sanjin Zoric
+ * 
  */
 
 #include <stdio.h>

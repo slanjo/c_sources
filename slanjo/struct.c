@@ -1,5 +1,4 @@
 //MAY 22, 2020
-//Sanjin Zoric
 //THis program shows static usage of linked lists
 
 #include <stdio.h>
@@ -20,14 +19,14 @@ void display(my_struct *start);
 
 int main(){
     
-    my_struct dane = {"Dane", 12, NULL};
-    my_struct sonja = {"Sonja", 14, NULL};
-    my_struct ljiljana = {"Ljilja", 22, NULL};
+    my_struct cat = {"maca", 12, NULL};
+    my_struct dog = {"ceno", 14, NULL};
+    my_struct mouse = {"mis", 22, NULL};
     my_struct slanjo = {"Slanjo", 45, NULL};
-    dane.next = &sonja;
-    ljiljana.next = &slanjo;
-    sonja.next = &ljiljana;
-    display(&dane);   
+    cat.next = &dog;
+    mouse.next = &slanjo;
+    dog.next = &mouse;
+    display(&cat);   
 
 
 	return 0;
