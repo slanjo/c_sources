@@ -2,9 +2,9 @@
 //chapter 4.3 page 76 - Reverse Polish Calculater
 #include <stdio.h>
 #include <stdlib.h> //to get atof()
+#include "calc.h"
 #include <math.h>
 #include <errno.h>
-#include "calc.h"
 
 //#define MAXOP 100   // max size of operand or operator
 
@@ -33,6 +33,15 @@ main()
                 break;
             case SWP:
                 printf("Swapped top to stack elements %f\n", swp());
+                break;
+            case SINX:
+                push((sin(pop())));
+                break;
+            case POW:
+                push(pow(pop(), pop()));
+                break;
+            case EXP:
+                push(exp(pop()));
                 break;
             case '+':
                 push(pop() + pop());

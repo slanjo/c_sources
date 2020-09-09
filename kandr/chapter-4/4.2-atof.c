@@ -34,7 +34,7 @@ double atoff(char s[]){
         sign2 = 1;
         i++;
     }
-    //if there was scientific notation convert it to proper values
+    //exercise 4.2 if there was scientific notation convert it to proper values
     for (exp = 0; isdigit(s[i]); i++)
         exp = 10 * exp +  (s[i] - '0');
     for (k = 1; k <= exp; k++)

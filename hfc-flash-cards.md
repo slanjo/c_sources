@@ -331,10 +331,12 @@ void *memset(void *s, int c, size_t n);
 ```
 ```
 -----    
-### **   
+### *math library compile errors*   
 -----    
-  * ** **  
+  * **On some systems** the math functions are in a separate library <math.h>, which needs to be linked explicitly.  
+  -lm options is to be used when compiling (linking).  
 ```
+https://stackoverflow.com/questions/21257826/undefined-reference-to-sin-when-passing-variable-instead-of-constant
 ```
 -----    
 ### **   

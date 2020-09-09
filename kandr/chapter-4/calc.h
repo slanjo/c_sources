@@ -6,6 +6,9 @@
 #define PRN 'P'
 #define CLR 'C'
 #define SWP 'S'
+#define SINX '$'
+#define POW '^'
+#define EXP '@'
 double clr(void);
 double swp(void);
 double prn(void);

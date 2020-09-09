@@ -2,7 +2,6 @@
 //getop: get next operator or numeric operand
 #include <stdio.h>
 #include <ctype.h>
-#include <math.h>
 #include "calc.h"
 int getch(void);
 void ungetch(int);

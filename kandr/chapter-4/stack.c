@@ -1,7 +1,6 @@
 //Wed 19 Aug 2020 04:46:51 AM AWST
 #include <stdio.h>
 #define MAXVAL 100      //maximum depth of val stack
-
 int sp = 0;             //next free stack position
 int k = 0;
 double val[MAXVAL];     //value stack
@@ -54,7 +53,7 @@ void dpl(void){
         printf("error: stack full, cant' push %g\n", val[k]);
 }
 //Exercise 4.4 Swap top two values on the stack
-double swp(void){
+void swp(void){
     if (sp < MAXVAL){
         double temp = 0;
         int j = sp - 1;
