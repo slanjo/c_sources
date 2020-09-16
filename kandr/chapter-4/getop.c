@@ -27,9 +27,6 @@ int getop(char s[]){
             ;
         }
         s[i] = '\0';
-//        for ( int j = sizeof(s[i]) + 1; j >= 0; j--){
-//                s[j] = s[j - 1];
-//            }
         s[0] = '-';
         if (k != EOF)
             ungetch(k);
@@ -38,8 +35,6 @@ int getop(char s[]){
     else if (c == '-')
        return c; 
     i = 0;
-//    i = 1;
-//    ungetch(c);
     if (isdigit(c))  {                      //collect integer part
         while (isdigit(s[++i] = c = getch()))
             ;

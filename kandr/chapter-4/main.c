@@ -35,7 +35,7 @@ main()
                 printf("Swapped top to stack elements %f\n", swp());
                 break;
             case SINX:
-                push((sin(pop())));
+                push(sin(pop()));
                 break;
             case POW:
                 push(pow(pop(), pop()));
