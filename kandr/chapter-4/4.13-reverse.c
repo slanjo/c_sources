@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 char s[] = "ab";
-
 //char s[] = "abcde";
 //char s[] = "Z Y X W V U T S R Q P O N M L K J I H G F E D C B A";
 //char s[] = "ZYXWVUTSRQPONMLKJIHGFEDCBA";
@@ -21,14 +20,8 @@ int main()
     char k = s[i];
     s[i] = s[j - 1];
     s[j - 1] = k;
-  
-//    for (i = 0; i < sizeof(s); i++)
-//        printf("' %c '\n", s[i]);
-//    s[sizeof(s)] = '\0';
+
     printf("string s after recursion is %s\n", s);
-//    printf("i is %i, and j is %i\n", i, j);
-//    printf("s is %s\n", s);
-    
 }
 void reverse(int i, int j)
 
@@ -44,7 +37,5 @@ void reverse(int i, int j)
         s[j] = c;
         printf("s[%i] = %C, s[%i] = %c\n", i, s[i],j, s[j]);
     }
-//    printf("s is %s\n", s);
-//    s[j++] = '\0';
-
+    return;
 }
