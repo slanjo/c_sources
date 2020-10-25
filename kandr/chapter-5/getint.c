@@ -4,7 +4,7 @@ int getint(int *pn);
 int main()
 {
     int SIZE = 10;
-    int n, array[SIZE], getint(int *);
+    int n, array[10] = {9,9,9,9,9,9,9,9,9,9},  getint(int *);
     for (n = 0; n < SIZE && getint(&array[n]) != EOF; n++)
             ;
     for (int i = 0; i < SIZE; i++)
@@ -20,15 +20,18 @@ int getint(int * pn)
             return 0;
             }
     sign = (c == '-') ? - 1 : 1;
-    if ( c == '+' || c == '-')
+    if ( c == '+' || c == '-'){
         c = getch();
-    if (!isdigit(c))
-        ungetch(c);
-    for (*pn = 0; isdigit(c); c = getch())
+        if (!isdigit(c)){
+            ungetch(c);
+            return 0;
+        }
+    }
+    for (*pn = 0; isdigit(c) ; c = getch())
         *pn = 10 * *pn + (c - '0');
+    
     *pn *= sign;
     if ( c != EOF )
         ungetch(c);
     return c;
 }
-    
