@@ -1,5 +1,5 @@
-//Sat Feb 20 07:52:49 UTC 2021
-//Write a program to manage a simple stack, that dynamically allocates memory to a one-dim array
+//Sun Feb 21 03:34:34 UTC 2021
+//Write a program to convert decimal to binary  
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,51 +10,28 @@ typedef struct {
     int size;
 }Stack;
 
+void printBinary(unsigned int n);
 void stackInitMalloc(Stack *, int );
 void freeMallocMem(Stack *);
 void push(Stack *, int );
 int pop(Stack *);
 int getSize(Stack *);
+int isOverflow(Stack *);
+int isUnderflow(Stack *);
 
 int main(){
 
-    Stack s1, s2;
-    stackInitMalloc(&s1, 3);
-    stackInitMalloc(&s2, 20);
-    int selection, value;
-    printf("1. Push\n" );
-    printf("2. Pop\n" );
-    printf("3. Exit\n" );
-    while(1 ){
-        printf("Enter Selection: \n");
-        scanf("%d", &selection);
-        printf("Stack size is %d\n", getSize(&s1));
-        switch (selection){
-            case 1:
-                printf("Enter value to push to the top of the stack\n");
-                scanf("%d", &value);
-                push(&s1, value);
-                break;
-            case 2:
-                if (( value = pop(&s1)) !=  -9999 ){
-                    printf("Popped value = %i\n", value);
-                    };
-                break;
-            case 3: 
-                freeMallocMem(&s1);
-                exit(0);
-            default: printf("Invalid selection: \n"); 
-        }
-    }
+    printBinary(128); 
 
     return 0;
 }
-//------------------
+
 void push(Stack *s, int value){
     
-    if ( s->top == s->size - 1 ){
+//    if ( s->top == s->size - 1 ){
 //        printf("Stack Overflow \n");
 //        return;
+        if (isOverflow(s)){
         int *temp;
         temp = (int *) malloc(sizeof(int) * s->size * 2);
         if ( temp == NULL ){
@@ -75,7 +52,8 @@ void push(Stack *s, int value){
 
 int pop(Stack *s ){
 
-    if ( s->top == -1){
+//     if (s->top == -1){
+    if (isUnderflow(s)){
         printf("Stack Underflow\n");
         return -9999;
         }
@@ -94,7 +72,9 @@ void stackInitMalloc(Stack *s, int size){
     s->size = size;
     return;
     }
+
 void freeMallocMem(Stack *s){
+
     if ( s->stack_item != NULL ){
         free(s->stack_item);
         s->top = -1;
@@ -107,24 +87,31 @@ void freeMallocMem(Stack *s){
 int getSize(Stack *s){
     return  s->size;
 }
-/*
-1. PROCEDURE PUSH (v )
-2. IFTOP=SIZE–1THEN
-3. DISPLAY “STACK OVERFLOW”
-4. EXIT PUSH
-5. END IF
-6. TOP:=TOP+1 // INCREMENT THE TOP OF THE STACK BY 1
-7. S[TOP]:=v // ASSIGN THE ELEMENT AT THE TOP POSITION OF THE STACK
-8. END PROCEDURE PUSH
 
-1. PROCEDURE POP ()
-2. IF S.TOP == -1 THEN
-3. DISPLAY “STACK UNDERFLOW”
-4. EXIT POP
-5. END IF
-6. v:=S[TOP]
-7. TOP:=TOP – 1
-8. RETURN v
-9. END PROCEDURE POP
+void printBinary( unsigned int n){
+    Stack s;
+    int bin;
+    printf("The %i in binary is: ", n);
+    const int BASE = 2;
+    stackInitMalloc(&s, 15);
+    while (n > 0){
+        bin = n % BASE;
+        push(&s, bin);
+        n = n / BASE;
+    }
+//    while (s.top != -1){
+    while(!isUnderflow(&s)){
+        printf("%d", pop(&s));
+                }
+    printf("\n");
+    freeMallocMem(&s);
+    return;
+}
 
-*/ 
+int isOverflow(Stack *s){
+    return s->top == s->size - 1;
+}
+
+int isUnderflow(Stack *s){
+    return s->top == -1;
+}
