@@ -1,2 +1,4 @@
 #include <stdio.h>
-TESTIRANJE
+int main(){
+  printf("Hello World\n"); 
+}
