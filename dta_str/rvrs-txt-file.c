@@ -3,7 +3,7 @@
 //ll
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 typedef struct {
     char *stack_item; //pointer to array of stack values for dynamic allocation by malloc
     int top;
@@ -38,7 +38,7 @@ void push(Stack *s, char value){
 //        return;
         if (isOverflow(s)){
         char *temp;
-        temp = (char *) malloc(sizeof(char) * s->size * 2);
+        temp = (char *)malloc(sizeof(char) * s->size * 2);
         if ( temp == NULL ){
             printf("Stack Overflow\n");
             return;
@@ -62,24 +62,22 @@ char pop(Stack *s ){
         printf("Stack Underflow\n");
         return '\0';
         }
-    int v = s->stack_item[s->top];
+    char v = s->stack_item[s->top];
     s->top--; 
     return v;
 }
 void stackInitMalloc(Stack *s, int size){
-    
     s->top = -1;
-    s->stack_item = (char *) malloc(sizeof(char) * size);
+    s->stack_item = (char *)malloc(sizeof(char) * size);
     if ( s->stack_item == NULL  ){
         printf("Failed to alocate memory\n");
         exit(1);
     }
     s->size = size;
-    return;
+//    return;
     }
 
 void freeMallocMem(Stack *s){
-
     if ( s->stack_item != NULL ){
         free(s->stack_item);
         s->top = -1;
@@ -93,26 +91,6 @@ int getSize(Stack *s){
     return  s->size;
 }
 
-void printBinary( unsigned int n){
-    Stack s;
-    int bin;
-    printf("The %i in binary is: ", n);
-    const int BASE = 2;
-    stackInitMalloc(&s, 15);
-    while (n > 0){
-        bin = n % BASE;
-        push(&s, bin);
-        n = n / BASE;
-    }
-//    while (s.top != -1){
-    while(!isUnderflow(&s)){
-        printf("%d", pop(&s));
-                }
-    printf("\n");
-    freeMallocMem(&s);
-    return;
-}
-
 int isOverflow(Stack *s){
     return s->top == s->size - 1;
 }
@@ -122,21 +100,14 @@ int isUnderflow(Stack *s){
 }
 
 int reverseIt(char source[], char dest[]){
-    printf("in reverseIt\n");
-    int i = 0;
-    while(!'\0') {
-        printf("%c", source[i]);
-        i++;
-
-                }
     FILE *fps, *fpd;
     const int SIZE = 50;
     fps = fopen(source, "r");
-    if(fps = NULL){
+    if(fps == NULL){
         printf("Error opening the file %s\n", source);
         return 0;
     }
-    fpd = fopen(dest, "r");
+    fpd = fopen(dest, "w");
     if(fpd == NULL){
         printf("Errof opening the file %s\n", dest);
         return 0;
