@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define SIZE 100
+//this program will search through an input array for matching brackets, parens, and
+//
 //Structure defines our stack and our postion on the stack
 typedef struct{
     char stack_item[SIZE];
