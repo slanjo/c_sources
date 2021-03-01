@@ -27,9 +27,7 @@ int main(){
         printf("Good!");
     }
     return 0;
-
 }
-
 void push(Stack *s, char value){
     if (s->top == SIZE - 1){
         printf("Stack Overflow Exiting\n");
@@ -52,7 +50,7 @@ int isEmpty(Stack * s){
     return s->top == -1;
     }
 char stacktop(Stack *s){
-    if (isEmpty(&s)) {
+    if (isEmpty(s)) {
         printf("Stack is empty");
         exit(1);
     }
@@ -73,6 +71,7 @@ int isOpeningMatch(char left, char right){
         default: printf("Invalid symbol, terminating\n");
                 exit(1);
     } 
+    return match;
    }
 
 int checkExpr(char expr[]){
@@ -95,12 +94,9 @@ int checkExpr(char expr[]){
             else
                 error = 1;
         }
+        ++i;
     }
     if (!error && !isEmpty(&stack))
         error = 1;
-    if (error)
-        printf("The input expression is invalid");
-    else
-        printf("The input expression is valid");
-
+    return error;
 }
