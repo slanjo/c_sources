@@ -336,6 +336,7 @@ void *memset(void *s, int c, size_t n);
   * **On some systems** the math functions are in a separate library <math.h>, which needs to be linked explicitly.  
   -lm options is to be used when compiling (linking).  
 ```
+https://stackoverflow.com/questions/12824134/undefined-reference-to-pow-in-c-despite-including-math-h
 https://stackoverflow.com/questions/21257826/undefined-reference-to-sin-when-passing-variable-instead-of-constant
 ```
 -----    
