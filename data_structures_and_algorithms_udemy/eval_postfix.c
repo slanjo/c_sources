@@ -52,7 +52,7 @@ double evalPostfix(char postfix[]){
     int i = 0;
     while(postfix[i] != '\0'){
         char token = postfix[i];
-        if ( token >= '0' && token <= '9'){ //s
+        if ( token >= '0' && token <= '9'){ //is the input an operand?
             int value = token - '0'; // convert char to int
             push(&stack, (double)value);
         }
