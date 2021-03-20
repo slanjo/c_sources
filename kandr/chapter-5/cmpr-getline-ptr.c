@@ -1,4 +1,4 @@
-#indlude "cmpr-headers.h"
+#include "cmpr-headers.h"
 int getlinee(char s[], int lim)
 {
     int c, i;
