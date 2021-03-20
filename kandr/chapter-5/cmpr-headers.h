@@ -2,4 +2,4 @@
 int readlines(char *lineptr[], int nlines);
 void writelines(char *lienptr[], int nlines);
 void qsorts(char *lienptr[], int left, int right);
-
+int getlinee(char s[], int lim);
