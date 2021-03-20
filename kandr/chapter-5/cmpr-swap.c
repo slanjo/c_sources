@@ -1,5 +1,8 @@
 //this is a function that will swap two ints using pointers
+/* 
+Sat Mar 20 19:07:43 AWST 2021
 #include <stdio.h>
+
 void swap(int *, int *);
 int main()
 {
@@ -29,3 +32,13 @@ void swap(int *pa, int *pb)
     *pa = *pb;
     *pb = temp;
 }   
+*/
+// swap: interchange v[i] and v[j]
+
+void swap(char *v[], int i , int j)
+{
+    char *temp;
+    temp = v[i];
+    v[i] = v[j];
+    v[j] = temp;
+}
