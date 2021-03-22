@@ -10,7 +10,7 @@ void qsorts(char *v[], int left, int right)
     swap(v, left, (left + right) / 2); //move partition element
     last = left;                       //to v[0]
     for (i = left + 1; i <= right; i++)
-        if (v[i] < v[left])
+        if (strcmp(v[i], v[left]) < 0)
             swap(v, ++last, i);
     swap(v, left, last);               // restore partition element
     qsorts(v, left, last - 1);

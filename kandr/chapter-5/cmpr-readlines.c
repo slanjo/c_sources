@@ -1,7 +1,6 @@
 //Sat Mar 20 19:02:20 AWST 2021
 #include "cmpr-headers.h"
 #define MAXLEN 1000    /* max length of any input line */
-char *alloc(int);
 
 /*readlines: read input lines */
 

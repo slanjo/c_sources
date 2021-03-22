@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <string.h> 
+//#include <stdio.h>
+//h#include <string.h> 
 #include "cmpr-headers.h"
 //#include "cmpr-qsort.h"
 //#include "cmpr-readlines.h"
