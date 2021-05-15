@@ -1,3 +1,4 @@
+//#include "cmpr-headers.c"
 /* strcmpr return <0 if s < t, 0 ir s == t, >0 if s > t */
 /*int strcmp(char *s, char *t){
     int i;

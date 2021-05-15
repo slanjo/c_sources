@@ -1,10 +1,10 @@
 //Sat Mar 20 19:02:20 AWST 2021
+#include "cmpr-headers.h"
 #define MAXLEN 1000    /* max length of any input line */
-char *alloc(int);
 
 /*readlines: read input lines */
 
-int readlines(char #lineptr[], int maxlines){
+int readlines(char *lineptr[], int maxlines){
     int len, nlines;
     char *p, line[MAXLEN];
 
@@ -28,5 +28,5 @@ void writelines(char *lineptr[], int nlines){
 //    for (i = 0; i < nlines; i++)
 //        printf("%s\n", lineptr[i]);
     while(nlines-- > 0)
-        printf ("%s\n", *lineptr++)
+        printf ("%s\n", *lineptr++);
 }

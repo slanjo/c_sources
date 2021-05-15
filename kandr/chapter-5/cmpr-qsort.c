@@ -1,6 +1,7 @@
 //Thu 03 Sep 2020 07:18:31 AM AWST
 //qsort: sort v[left]...v[right] int increasing order
-void qsort(char *v[], int left, int right)
+#include "cmpr-headers.h"
+void qsorts(char *v[], int left, int right)
 {
     int i, last;
     void swap(char *v[], int i, int j);
@@ -9,9 +10,9 @@ void qsort(char *v[], int left, int right)
     swap(v, left, (left + right) / 2); //move partition element
     last = left;                       //to v[0]
     for (i = left + 1; i <= right; i++)
-        if (v[i] < v[left])
+        if (strcmp(v[i], v[left]) < 0)
             swap(v, ++last, i);
     swap(v, left, last);               // restore partition element
-    qsort(v, left, last - 1);
-    qsort(v, last + 1, right);
+    qsorts(v, left, last - 1);
+    qsorts(v, last + 1, right);
 }
