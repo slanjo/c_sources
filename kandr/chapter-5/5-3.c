@@ -1,4 +1,5 @@
 //Redo a chapter two function with pointers
+//Sat May 15 2021
 #include <stdio.h>
 void strcat(char *, char *);
 void strcat(char *, char *);
