@@ -1,5 +1,6 @@
 //Redo a chapter two function with pointers
 //Sat May 15 2021
+//Sun 16 May 2021 12:00:42 PM AWST
 #include <stdio.h>
 
 void strcata(char [], char []);
