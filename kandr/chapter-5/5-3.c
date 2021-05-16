@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 void strcata(char [], char []);
-void pstrcata(char [] , char []);
+void pstrcata(char *, char *);
 
 int main(){
     char A[] = "Blue";
@@ -21,7 +21,7 @@ void strcata( char s[], char t[]){
     while ((s[i++] = t[j++] != '\0'))
         ;
 }*/
-void pstrcata( char s[], char t[]){
+void pstrcata( char *s, char *t){
     printf("s = %c, t = %c\n", *s, *t);
     while ( *s != '\0' ){ /* find end of s*/
        s++;
