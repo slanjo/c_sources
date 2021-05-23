@@ -1,7 +1,9 @@
-//Fri May 21 19:54:41 UTC 2021
-//Find the two entries that sum to 2020 and then multiply those two numbers together
+//Sat May 22 12:26:31 UTC 2021
+//Find the three entries into expens report that sum to 
+//2020 and then multiply the three numbers together
 #include <stdio.h>
 #include <stdlib.h>
+#define YEAR 2020
 int load_stack(char[], int[], int);
 int count_lines(char[]);
 typedef struct {
@@ -10,15 +12,17 @@ typedef struct {
 
 
 int main(){
+    int result = 0;
     int arr_size = count_lines("/home/admin/Programming/C/aoc/d1.txt");
     int expense_elements[arr_size];
-    int in_file = load_stack("/home/admin/Programming/C/aoc/d1.txt", expense_elements, arr_size);
+    printf("%i\n", result = load_stack("/home/admin/Programming/C/aoc/d1.txt",\
+              expense_elements, arr_size));
 }
 
 int load_stack(char in_data[], int arr[], int arr_size){
     int arra[arr_size];
     FILE *fps; 
-    int i, j, n=0;
+    int i, j, k, n = 0;
     char c;
     fps = fopen(in_data, "r");
     if(fps == NULL){
@@ -34,15 +38,15 @@ int load_stack(char in_data[], int arr[], int arr_size){
     while ( fscanf(fps, "%i", arra) ==  1 ) {
         arr[i] = arra[0];  
         i++;  }
-//    printf("%i - %i - %i\n", arr[0], arr[1], arr[199]);
 //[^\n]
     fclose(fps);
     for(i = 0; i < arr_size; i++){
-       n = 2020 - arr[i];
-       for (j = 0; j < arr_size ; j++){ 
-           if (arr[j] == n){
-               return n * arr[i];
-               break;
+       for (j = i + 1; j < arr_size ; j++){ 
+           for (k = j + 1; k < arr_size; k++){
+                if (arr[i] + arr[j] + arr[k] == YEAR){
+                    return arr[i] * arr[j] * arr[k];
+                    break;
+           }
            }
        }
     }
