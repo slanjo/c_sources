@@ -3,7 +3,7 @@
 //"down 1". Output the number of trees we encounter. (tree = #, O = open square)
 //If we flatten the input file into a single dimension arrah, the above move can also be viewed as 
 //new position+=input line length + lateral move amount
-//To solve this puzzle we assumed that a "pattern reapeats to the right many times" 
+//So, to solve this puzzle we assumed that a "pattern reapeats to the right many times" 
 //can be simulated by rewinding our position to a calculated offset near the beinning 
 //of the current line. We then continue our regular count of "np = np + 31 + rs"
 //
