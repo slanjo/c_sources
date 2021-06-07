@@ -24,10 +24,11 @@ typedef struct record {
 
 int main(){
     int arr_size, result = 0;
-    printf("%i\n", arr_size = count_lines("/home/admin/Programming/C/aoc/d2.txt"));
+    printf("%i\n", arr_size = count_lines("/home/admin/Programming/c_sources/aoc/d2.txt"));
     int expense_elements[arr_size];
-    printf("%i\n", result = load_stack("/home/admin/Programming/C/aoc/d2.txt",\
+    printf("%i\n", result = load_stack("/home/admin/Programming/c_sources/aoc/d2.txt",\
               arr_size));
+    printf("%i is the number of newlines\n", arr_size);
 }
 
 int load_stack(char in_data[], int arr_size){
