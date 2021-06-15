@@ -8,7 +8,7 @@
 //can be simulated by rewinding our position to a calculated offset near the beinning 
 //of the current line. We then continue our regular count of "np = np + 31 + rs"
 //
-//
+///
 
 #include <stdio.h>
 #include <string.h>
