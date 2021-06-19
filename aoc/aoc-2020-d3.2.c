@@ -10,7 +10,6 @@
 //
 //
 
-enum rew { zero=0, rew7=7, rew8=8, rew9 = 9, rew10 = 10, rew31 = 31};
 #include <stdio.h>
 #include <string.h>
 int count_chr(char[]);
@@ -21,12 +20,15 @@ int main(){
     int CHARS = 0;
     char file_name[] = "/home/admin/Programming/c_sources/aoc/d3-in.txt";
 //    char file_name[] = "/home/admin/Programming/c_sources/aoc/test.txt";
+
     printf("# of characters in the input file: %i\n\n-----------\n", CHARS = count_chr(file_name));
+
     char letter[CHARS]; //allocate memoryfor array to store input file to 
     char *char_in = create_array(letter, CHARS, file_name);//return a pointer to char array with CHARS number of elements. 
     char *cp = char_in;//pointer to the first char in the string array
     char *np = char_in;//"next position to be checked for a tree 
     char *lb = cp;//left border - first character in any one row
+
 //    char *rb = cp + 11;//right border - last character in any one row
     char *rb = cp + 31;//right border - last character in any one row
     char *check_end = lb;//stop loop

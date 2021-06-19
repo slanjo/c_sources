@@ -19,14 +19,17 @@ char *create_array(char[], int, char[]);//convert the input file into an array
 int main(){
     int k=1, tree_count=0, rs=3, i = 0, j = 0, cp_offset = 0;//rs = right step - how many cells we move to the right .0
     int CHARS = 0;
+
     char file_name[] = "/home/admin/Programming/c_sources/aoc/d3-in.txt";
 //    char file_name[] = "/home/admin/Programming/c_sources/aoc/test.txt";
     printf("# of characters in the input file: %i\n\n-----------\n", CHARS = count_chr(file_name));
+
     char letter[CHARS]; //allocate memoryfor array to store input file to 
     char *char_in = create_array(letter, CHARS, file_name);//return a pointer to char array with CHARS number of elements. 
     char *cp = char_in;//pointer to the first char in the string array
     char *np = char_in;//"next position to be checked for a tree 
     char *lb = cp;//left border - first character in any one row
+
 //    char *rb = cp + 11;//right border - last character in any one row
     char *rb = cp + 31;//right border - last character in any one row
     char *check_end = lb;//stop loop
@@ -61,6 +64,7 @@ int run_slope(char *lb, char *rb, char *np,  char *check_end, char *cp,  int rs,
             //we'd have to rewind back by using cp_offset and np = lb + 2 - cp_offset + 31
         if ((rb - np) < rs){
 //            printf("RWD CONDITION MET    lb= %c rb= %c cp= %c np= %c \n", *(lb), *(rb), *(cp), *(np));
+
             cp_offset = rb - np;
             if ((two_line == 2) && (rs == 1) && cp_offset == 0) 
                 np = rb + 32;
@@ -76,10 +80,12 @@ int run_slope(char *lb, char *rb, char *np,  char *check_end, char *cp,  int rs,
                 rb+=(31*two_line);
                 lb+=(31*two_line);
             }
+
 //            printf("AFTER RWND OPERATION lb= %c rb= %c cp= %c np= %c \n", *(lb), *(rb), *(cp), *(np));
         }
         else {
 //            printf("NORMAL CONDITION MET lb= %c rb= %c cp= %c np= %c \n", *(lb), *(rb), *(cp), *(np));
+
             if (two_line == 2){
                 lb+=(31*two_line);
                 rb = lb + 30;
@@ -99,6 +105,7 @@ int run_slope(char *lb, char *rb, char *np,  char *check_end, char *cp,  int rs,
         cp = np;
        }
     printf("Number of trees on the slope with RS= %i: %i\n", rs, tree_count);
+
     return tree_count;
 }
 int count_chr(char sp[]){
