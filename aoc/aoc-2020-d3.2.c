@@ -8,8 +8,9 @@
 //can be simulated by rewinding our position to a calculated offset near the beinning 
 //of the current line. We then continue our regular count of "np = np + 31 + rs"
 //
-///
+//
 
+enum rew { zero=0, rew7=7, rew8=8, rew9 = 9, rew10 = 10, rew31 = 31};
 #include <stdio.h>
 #include <string.h>
 int count_chr(char[]);
@@ -20,71 +21,85 @@ int main(){
     int CHARS = 0;
     char file_name[] = "/home/admin/Programming/c_sources/aoc/d3-in.txt";
 //    char file_name[] = "/home/admin/Programming/c_sources/aoc/test.txt";
-    printf("# of characters in the input file: %i\n", CHARS = count_chr(file_name));
+    printf("# of characters in the input file: %i\n\n-----------\n", CHARS = count_chr(file_name));
     char letter[CHARS]; //allocate memoryfor array to store input file to 
     char *char_in = create_array(letter, CHARS, file_name);//return a pointer to char array with CHARS number of elements. 
     char *cp = char_in;//pointer to the first char in the string array
     char *np = char_in;//"next position to be checked for a tree 
     char *lb = cp;//left border - first character in any one row
+//    char *rb = cp + 11;//right border - last character in any one row
     char *rb = cp + 31;//right border - last character in any one row
     char *check_end = lb;//stop loop
-    int two_line = 1; //moving = right 1 down 2
+    int two_line = 1; //moving = right 1 DOWN 1; tells us we're on every other line count and is used to switch between
+    //different count types
     int solution[5];
     int RS[] = {1, 3, 5, 7, 1}; 
     for  (j = 0; j < 4; j++){
+        tree_count = 0;
         solution[j] = run_slope(lb, rb, np, check_end, cp, RS[j], cp_offset, two_line);
-        printf("RS = %i: \n", RS[j]);
+        printf("RS %i = %i, # of trees = %i\n\n---------\n", j, RS[j], solution[j]);
     }
-    two_line = 2;
+    two_line = 2; //moving = right 1 DOWN 2
     solution[4] = run_slope(lb, rb, np, check_end, cp, RS[j], cp_offset, two_line);
-
     printf("The correct answer is: %li\n", solution[0] * solution[1] * solution[2] * solution[3] * solution[4]); 
 }
-
 int run_slope(char *lb, char *rb, char *np,  char *check_end, char *cp,  int rs, int cp_offset, int two_line ) {
-    int k = 0;
     lb = lb + 31 * two_line;
-    if (two_line == 2){
-        rb = lb + 61;
-        np = lb + rs;
-    }
-    else {
-        rb = lb + 30 * two_line;
-        np = cp + 31 * two_line + rs;
-    }
     int tree_count = 0;
+    if (two_line == 2)
+        rb = lb + 30;
+    else
+        rb = lb + 30;// * two_line;
+    np = cp + 31 * two_line + rs;
     while (*check_end != '\0'){
         //check if we have ran into a tree
-            if ((*np) == '#'){
-                tree_count++;
+        printf("%c", *rb);
+        if ((*np) == '#'){
+            tree_count++;
             }
+//        printf("\n\nINSIDE WHILE %i TIME  lb= %c rb= %c cp= %c np= %c \n", k, *(lb), *(rb), *(cp), *(np));
             //check if we can lateraly move THREE units without crossing the right boundary in which case\
             //we'd have to rewind back by using cp_offset and np = lb + 2 - cp_offset + 31
         if ((rb - np) < rs){
+//            printf("RWD CONDITION MET    lb= %c rb= %c cp= %c np= %c \n", *(lb), *(rb), *(cp), *(np));
             cp_offset = rb - np;
+            if ((two_line == 2) && (rs == 1) && cp_offset == 0) 
+                np = rb + 32;
+            else if ((two_line == 2) && (rs == 1))
+                    np = np + 62;
+            else
+                np = lb + rs - 1 - cp_offset + 31 * two_line;//rewind back a bit so we can continue our counting simulation 
             if (two_line == 2){
-//                printf("cp_offset = %i\n", cp_offset);
-                np = lb - cp_offset + 31;//rewind back a bit so we can continue counting simulation 
-                lb+=62;
+                lb+=(31*two_line);
                 rb = lb + 30;
             }
             else {
-            np = lb + rs - 1 - cp_offset + 31 * two_line;//rewind back a bit so we can continue counting simulation 
-            rb+=(31*two_line);
-            lb+=(31*two_line);
+                rb+=(31*two_line);
+                lb+=(31*two_line);
             }
+//            printf("AFTER RWND OPERATION lb= %c rb= %c cp= %c np= %c \n", *(lb), *(rb), *(cp), *(np));
         }
         else {
-            lb+=(31*two_line);
-            rb+=(31*two_line);
-            np = np + 31*two_line + rs;
+//            printf("NORMAL CONDITION MET lb= %c rb= %c cp= %c np= %c \n", *(lb), *(rb), *(cp), *(np));
+            if (two_line == 2){
+                lb+=(31*two_line);
+                rb = lb + 30;
+            } 
+            else{
+                lb+=(31*two_line);
+                rb+=(31*two_line);
+            }
+            if (two_line == 2){
+                np = np + 63;
+            }
+            else
+                np = np + 31*two_line + rs;
+//            printf("NORMAL CONDITION NP  lb= %c rb= %c cp= %c np= %c \n", *(lb), *(rb), *(cp), *(np));
             }
         check_end = lb;
-//        printf("%c", *lb);
         cp = np;
-       k++; 
        }
-    printf("Number of trees on the slope with RS =%i: %i\n---------\n", rs, tree_count);
+    printf("Number of trees on the slope with RS= %i: %i\n", rs, tree_count);
     return tree_count;
 }
 int count_chr(char sp[]){
