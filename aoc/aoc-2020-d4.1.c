@@ -24,10 +24,12 @@ typedef struct passport {
 
 int main(){
     int arr_size, result = 0;
-    printf("%i\n", arr_size = count_lines("/home/admin/Programming/c_sources/aoc/d4-test-in.txt"));
+//    printf("%i\n", arr_size = count_lines("/home/admin/Programming/c_sources/aoc/d4-test-in.txt"));
+    printf("%i\n", arr_size = count_lines("C:\\Users\\slaan\\source\\c_sources\\aoc\\d4-test-in.txt"));
     int expense_elements[arr_size];
-    printf("%i\n", result = load_stack("/home/admin/Programming/c_sources/aoc/d4-test-in.txt",\
+//    printf("%i\n", result = load_stack("/home/admin/Programming/c_sources/aoc/d4-test-in.txt",\
               arr_size));
+    printf("%i\n", result = load_stack("C:\\Users\\slaan\\source\\c_sources\\aoc\\d4-test-in.txt", arr_size));
 }
 bool TestForBlankLine(const char * line) {
     int i;
