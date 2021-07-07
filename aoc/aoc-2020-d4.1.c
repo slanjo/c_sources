@@ -9,9 +9,18 @@
 #include <stdlib.h>
 #include <ctype.h>
 #define YEAR 2020
-int load_stack(char[], int);
-int count_lines(char[]);
+int countPassports(char[]);
+
 bool TestForBlankLine(const char * ); 
+typedef struct metaPassport{ 
+    int lineCounter; //how many lines in a file
+    int longestLine; //how many characters in the longest line
+    int blankLine;   //how many blank lines in the file
+}mPassport; 
+
+void loadPassports(char *, int, int, int);
+void countLines(char[], struct metaPassport*);
+
 typedef struct passport {
     char byr;
     char iyr;
@@ -20,19 +29,30 @@ typedef struct passport {
     char hcl;
     char ecl;
     char pid;
-    char cid;;  
-}pass_rcrd; 
+    char cid[];  
+}passRcrd; 
 
 int main(){
-    int arr_size, result = 0;
-//    printf("%i\n", arr_size = count_lines("/home/admin/Programming/c_sources/aoc/d4-test-in.txt"));
-    printf("%i\n", arr_size = count_lines("C:\\Users\\slaan\\source\\c_sources\\aoc\\d4-test-in.txt"));
-    int expense_elements[arr_size];
-//    printf("%i\n", result = load_stack("/home/admin/Programming/c_sources/aoc/d4-test-in.txt",\
-              arr_size));
-    printf("%i\n", result = load_stack("C:\\Users\\slaan\\source\\c_sources\\aoc\\d4-test-in.txt", arr_size));
+    struct metaPassport *pmPassport = (struct metaPassport *) malloc (sizeof (struct metaPassport));
+    pmPassport->longestLine = 0; 
+    pmPassport->lineCounter = 0;
+    int arrSize = 0; 
+    int result = 0;
+    countLines("/home/admin/Programming/c_sources/aoc/d4-test-in.txt", pmPassport );
+//    countLines("/home/admin/Programming/c_sources/aoc/d4-in.txt", pmPassport );
+//    printf("%i\n", arrSize = countLines("C:\\Users\\slaan\\source\\c_sources\\aoc\\d4-test-in.txt"));
+    const int LINE_LENGTH = pmPassport->longestLine;
+    const int LINE_COUNT = pmPassport->lineCounter;
+    const int PASSPORT_COUNT = pmPassport->blankLine;
+    printf("\nLine count: %i\nLongest Line: %i\nNumber of passports: %d\n",\
+           pmPassport->lineCounter,  pmPassport->longestLine, pmPassport->blankLine);
+    loadPassports("/home/admin/Programming/c_sources/aoc/d4-test-in.txt", LINE_LENGTH,\
+                  PASSPORT_COUNT, LINE_COUNT);
 }
+
 bool TestForBlankLine(const char * line) {
+//blank line is the "passport separator" - counting blank lines will tell us
+//how many passports we have. 
     int i;
     for (i = 0; line[i] != '\0'; i++){
         if (!isspace(line[i]))
@@ -40,53 +60,80 @@ bool TestForBlankLine(const char * line) {
         return true;
         }
 }
-int load_stack(char in_data[], int arr_size){
+
+void loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount){
     FILE *fps; 
-    int i, j = 0, k = 0, n = 0;
-    char c;
+    int  numLines = 0;
+    size_t lnLen;
+    char *line;
+    char *curLine;
+    char *lnArr[lnCount];
+    size_t bufsize = lineLength;
+//    char line[lineLength]; 
     fps = fopen(in_data, "r");
     if(fps == NULL){
         printf("error opening the file %s\n", in_data);
-        return 0;
+        exit(1);
     }
-//create a structure to hold the passport record 
-    struct passport *s = malloc(sizeof(struct passport));
-//Initialize struct with data
-//    while ( fscanf(fps, "%i %c %i %c %c %s", &s->min, &s->dash, &s->max,\
-//               &s->letr, &s->scol, &s->pass) ==  6 ) {
-//        printf("%i %c %i %c%c %s\n", s->min, s->dash, s->max,\
-//               s->letr, s->scol, s->pass);
-//        for (i = 0; i <= strlen(s->pass); i++){
-//            if (s->pass[i] == s->letr)
-//                k++;
-//        }
-//        printf("k = %i\n", k);
-//        if (( s->min <= k ) && ( k <= s->max )) 
-//            n++;
-//        i, k = 0;
-//}
-    
+//create an array to hold the passport record 
+    line = (char *) malloc(lineLength * sizeof(char));
+    while ((lnLen = getline(&line, &bufsize, fps)) > 0){
+        printf("\nlnLen = %i\n", lnLen);
+        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
+            printf("Error, exiting\n");
+            return -1;
+        }
+        else {
+            line[lnLen - 1] = '\0';
+            strcpy(curLine, line);
+            lnArr[numLines++] = curLine;
+        }
+    }
+    printf("\n lnArr %s\n", lnArr[8]);
+//    printf("******** %s **********\n", line); 
+//    printf("******* %s **********\n", lnArr);
 //%20[^\n]
     fclose(fps);
-    free(s);
-    return n;
+//    free(line);
 }
 
-int count_lines(char s[]){
-//---Count lines in the input files to determine the size of the array
+//ssize_t getline (char **lineptr, size_t *n, FILE *stream);
+/* countLines:
+  -Count lines in the file - not sure why
+  -calculate the longest line length to be able to use it to dynamically create
+   a string array for the given line.
+  -calculate the total number of passports in the file - used in the loop
+*/ 
+
+void countLines(char s[], struct metaPassport *sPassport){ 
     FILE *fps; 
-    int c, n = 0;
+    int c = 0; 
+    int n = 0;
     fps = fopen(s, "r");
     if(fps == NULL){
         printf("error opening the file %s\n", s);
-        return 0;
+        exit(1);
     }
-   while ((c = (fgetc(fps))) != EOF){
-        if (c == '\n')
-            ++n;
-//        printf("%c", c);            
+    while ((c = (fgetc(fps))) != EOF){
+        if (c == '\n'){
+            ++(sPassport->lineCounter);
+            if ( n > sPassport->longestLine)
+                sPassport->longestLine = n++;
+            n = 0;
+        }
+        else 
+            n++;
     }
-   fclose(fps);
-   return n;
+    fseek ( fps, 0, SEEK_SET); //  set the file pointer "fps" to the beginning of the file:\
+                                 OR rewind back to the begining of the file
+    char pLine[sPassport->longestLine];
+    printf("\n******\n");
+    sPassport->blankLine++;
+    while (fgets( pLine, sPassport->longestLine, fps) != NULL){
+        printf("%s", pLine);
+        if isspace(pLine[0])
+            ++(sPassport->blankLine);
+    }
+    printf("\n******\n");
+    fclose(fps);
 }
-
