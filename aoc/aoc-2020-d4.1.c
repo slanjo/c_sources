@@ -78,8 +78,7 @@ void loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount){
 //create an array to hold the passport record 
     line = (char *) malloc(lineLength * sizeof(char));
     while ((lnLen = getline(&line, &bufsize, fps)) > 0){
-        printf("\nlnLen = %i\n", lnLen);
-        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
+       if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
             printf("Error, exiting\n");
             return -1;
         }
@@ -88,6 +87,8 @@ void loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount){
             strcpy(curLine, line);
             lnArr[numLines++] = curLine;
         }
+        printf("\nlnLen = %i\n", lnLen);
+ 
     }
     printf("\n lnArr %s\n", lnArr[8]);
 //    printf("******** %s **********\n", line); 
