@@ -1,4 +1,3 @@
-//test
 //Sun May 23 07:25:00 UTC 2021
 //Wed Jul  7 11:49:51 UTC 2021
 //Find the three entries into expens report that sum to 
@@ -105,8 +104,8 @@ int loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount, ch
     line = (char *) malloc(lineLength * sizeof(char));
     while ((lnLen = getline(&line, &bufsize, fps)) > 0){
         printf("\nlnLen = %i\n", lnLen);
-//        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
-        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen )) == NULL)){
+        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
+//        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen )) == NULL)){
             printf("\n****Error, exiting****\n");
             return -1;
         }
