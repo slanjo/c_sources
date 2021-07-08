@@ -116,6 +116,8 @@ int loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount, ch
             strcpy(curLine, line);
             linePTR[numLines++] = curLine;
         }
+        printf("\nlnLen = %i\n", lnLen);
+ 
     }
 //%20[^\n]
     fclose(fps);
