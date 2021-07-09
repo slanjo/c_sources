@@ -1,0 +1,135 @@
+
+******
+hgt:159cm
+pid:561068005 eyr:2025 iyr:2017 cid:139
+byr:1940
+
+iyr:2014
+byr:1986 pid:960679613 eyr:2025 ecl:hzl
+
+cid:211 ecl:blu hcl:#7d3b0c iyr:2011 
+byr:1982 eyr:2023 hgt:68in
+
+hcl:#341e13 hgt:192 iyr:2028
+ecl:utc
+eyr:2027 byr:1979 pid:653515689
+
+******
+
+Line count: 13
+Longest Line: 39
+Number of passports: 4
+
+lnLen = 10
+
+lnLen = 10
+
+lnLen = 40
+
+lnLen = 40
+
+lnLen = 9
+
+lnLen = 9
+
+lnLen = 1
+
+lnLen = 1
+
+lnLen = 9
+
+lnLen = 9
+
+lnLen = 40
+
+lnLen = 40
+
+lnLen = 1
+
+lnLen = 1
+
+lnLen = 38
+
+lnLen = 38
+
+lnLen = 27
+
+lnLen = 27
+
+lnLen = 1
+
+lnLen = 1
+
+lnLen = 29
+
+lnLen = 29
+
+lnLen = 8
+
+lnLen = 8
+
+lnLen = 32
+
+lnLen = 32
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 40
+Found: iyr
+Found: eyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 40
+Found: byr
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 38
+Found: iyr
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 27
+Found: byr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 29
+Found: iyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 32
+Found: byr
+Found: eyr
+Found: pid
+Total number of fields in the passport = 7
+Number of Good Passports: 0
