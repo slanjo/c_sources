@@ -1,8 +1,10 @@
 //Sun May 23 07:25:00 UTC 2021
 //Wed Jul  7 11:49:51 UTC 2021
-//Find the three entries into expens report that sum to 
-//2020 and then multiply the three numbers together
-//input format: 16-17 w: Linux VERSION 
+// Linux VERSION 
+// find a valid passport from the input in d4-in.txt
+// valid passport = a) a passport that has 7 expected fields and on missing field of cid
+//                  b) a passport that has 8 expected fields
+//Output the number of valid passports in the inputd file.
 #include <stdbool.h>
 #include <string.h>
 #include <stdio.h>
@@ -30,6 +32,10 @@ int main(){
     int numOfGoodPassports = 0;  
     int arrSize = 0; 
     int result = 0;
+//counLines function call: 
+//Count the number of lines in the input file;
+//Count the number of passport in the input file;
+//Find the longest line in the file - used as input to malloc
 //    countLines("/home/admin/Programming/c_sources/aoc/d4-test-in.txt", pmPassport );
     countLines("/home/admin/Programming/c_sources/aoc/d4-in.txt", pmPassport );
 //    printf("%i\n", arrSize = countLines("C:\\Users\\slaan\\source\\c_sources\\aoc\\d4-test-in.txt"));
@@ -53,6 +59,8 @@ int main(){
 
 }
 
+//loadPassports is used to print out the length of each line using malloc and getline. It overlaps 
+//with the countLines function 
 int loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount, char *linePTR[] ){
     FILE *fps; 
     int  numLines = 0;
@@ -66,7 +74,9 @@ int loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount, ch
         printf("error opening the file %s\n", in_data);
         exit(1);
     }
-//create an array to hold the passport record 
+//create a buffer to hold  a single passport file line. "line is then fed into getline" 
+//getline returns a lnLen of characters in the line, it also returns a pointer to the beginning 
+//of captured line. 
 //    line = (char *) malloc(lineLength * sizeof(char));
     line = (char *) malloc(bufsize* sizeof(char));
     while ((lnLen = getline(&line, &bufsize, fps)) > 0){
@@ -108,13 +118,14 @@ int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount
         printf("error opening the file %s\n", in_data);
         exit(1);
     }
-//create an array to hold the passport record 
+//create an array to hold the passport record - malloc requires buffer (lnLen that will 
     line = (char *) malloc(lineLength * sizeof(char));
     while ((lnLen = getline(&line, &bufsize, fps)) > 0){
         printf("\nlnLen = %i\n", lnLen);
-        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
+//dynamically create space (curLine) for each getline call - using malloc) and create a pointer to it (curLine)
+        if ( numLines >= lnCount || ((curLine = (char *)  malloc (bufsize* sizeof (char))) == NULL)){
 //        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen )) == NULL)){
-            printf("\n****Finished processin, exiting****\n");
+            printf("\n****Finished processing, exiting****\n");
             free(line);
 //            fclose(fps);
             return addGoodPassport; 
@@ -122,19 +133,26 @@ int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount
         else {
             //line[lnLen - 1] = '\0'; //remove the blank line
             //line[lnLen] = '\0';
+//
             strcpy(curLine, line);
+
             if (isspace(linePTR[numLines][0])){
 //            if (isspace(linePTR[numLines][0])){
-                //RESET ALL FIELD COUNTERS
+//check for the passport validity: each passport field (i.e. expiry yr, pid, etc)
+//has a weight of "1" so we need 7 or more fields to have a valid passport.To accomodate for problem req
+//we can have either 7 + 0 (from cid = 0) or 8 (all passport fields are present) 
+//We also reset all field counters
                 if (((numFieldsInPass >= 7) && (cid == 0)) || numFieldsInPass == 8 ){
                     printf("Good Passports = %i\n", ++addGoodPassport);
                 }
                 numFieldsInPass = byr = iyr = eyr = hgt = hcl = ecl = pid = cid = 0;
             }
-            else { 
+ 
+            else {
                 for (i = 0; i < 8; i++){
                     if (strstr(linePTR[numLines], passport[i])){
                         printf("Found: %s\n", passport[i]);
+//for each field add "1" if present
                         if (passport[i] == "byr"){
                            byr++; 
                         }
@@ -155,9 +173,8 @@ int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount
                         else
                             ;
                         }
-                        //ADD ALL PASSPORT ITEM
                     }
-                    printf("Total number of fields in the passport = %i\n", numFieldsInPass = byr +\
+                    printf("Total number of fields in a given passport record = %i\n", numFieldsInPass = byr +\
                             iyr + eyr + hgt + hcl + ecl + pid + cid);
                     
                 }
@@ -169,14 +186,6 @@ int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount
     free(line);
     return addGoodPassport;
     }
-//    printf(" countGoodPassports = %i\n", countGoodPassports);
-/*
-    for (i = 0; line[i] != '\0'; i++){
-        if (!isspace((line[i])))
-                return false;
-        return true;
-        }
-*/
 
 //ssize_t getline (char **lineptr, size_t *n, FILE *stream);
 /* countLines:
