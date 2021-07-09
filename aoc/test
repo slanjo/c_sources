@@ -1074,129 +1074,6201 @@ pid:921038878
 Line count: 1068
 Longest Line: 79
 Number of passports: 284
-
-lnLen = 43
-
-lnLen = 43
-
-lnLen = 36
-
-lnLen = 36
-
-lnLen = 1
-
-lnLen = 1
-
-lnLen = 48
-
-lnLen = 48
-
-lnLen = 21
-
-lnLen = 21
-
-lnLen = 1
-
-lnLen = 1
-
-lnLen = 21
-
-lnLen = 21
-
+bufsize is: 79 
+lnLen = 10
+lnLen = 60
 lnLen = 9
-
+lnLen = 1
 lnLen = 9
-
+lnLen = 40
+lnLen = 1
+lnLen = 51
+lnLen = 27
+lnLen = 1
+lnLen = 29
+lnLen = 8
+lnLen = 32
+lnLen = 1
 lnLen = 31
-
+lnLen = 34
+lnLen = 1
+lnLen = 10
+lnLen = 21
+lnLen = 17
+lnLen = 23
+lnLen = 1
+lnLen = 17
+lnLen = 44
+lnLen = 1
+lnLen = 22
+lnLen = 40
+lnLen = 1
+lnLen = 61
+lnLen = 1
+lnLen = 35
+lnLen = 36
+lnLen = 1
+lnLen = 21
+lnLen = 30
+lnLen = 28
+lnLen = 1
+lnLen = 27
+lnLen = 8
+lnLen = 17
+lnLen = 14
+lnLen = 1
+lnLen = 49
+lnLen = 22
+lnLen = 1
+lnLen = 50
+lnLen = 21
+lnLen = 1
+lnLen = 9
+lnLen = 42
+lnLen = 9
+lnLen = 1
+lnLen = 12
+lnLen = 48
+lnLen = 9
+lnLen = 1
+lnLen = 53
+lnLen = 8
+lnLen = 1
+lnLen = 12
+lnLen = 16
+lnLen = 51
+lnLen = 1
 lnLen = 31
+lnLen = 21
+lnLen = 18
+lnLen = 9
+lnLen = 1
+lnLen = 31
+lnLen = 20
+lnLen = 9
+lnLen = 15
+lnLen = 1
+lnLen = 8
+lnLen = 22
+lnLen = 9
+lnLen = 9
+lnLen = 1
+lnLen = 41
+lnLen = 10
+lnLen = 9
+lnLen = 8
+lnLen = 1
+lnLen = 12
+lnLen = 51
+lnLen = 14
+lnLen = 1
+lnLen = 30
+lnLen = 49
+lnLen = 1
+lnLen = 39
+lnLen = 9
+lnLen = 9
+lnLen = 14
+lnLen = 1
+lnLen = 19
+lnLen = 48
+lnLen = 1
+lnLen = 79
+lnLen = 1
+lnLen = 52
+lnLen = 26
+lnLen = 1
+lnLen = 79
+lnLen = 1
+lnLen = 40
+lnLen = 9
+lnLen = 31
+lnLen = 1
+lnLen = 9
+lnLen = 59
+lnLen = 1
+lnLen = 9
+lnLen = 48
+lnLen = 14
+lnLen = 1
+lnLen = 36
+lnLen = 9
+lnLen = 8
+lnLen = 1
+lnLen = 27
+lnLen = 9
+lnLen = 8
+lnLen = 9
+lnLen = 23
+lnLen = 1
+lnLen = 12
+lnLen = 9
+lnLen = 25
+lnLen = 22
+lnLen = 12
+lnLen = 1
+lnLen = 33
+lnLen = 38
+lnLen = 1
+lnLen = 9
+lnLen = 14
+lnLen = 9
+lnLen = 47
+lnLen = 1
+lnLen = 21
+lnLen = 19
+lnLen = 9
+lnLen = 22
+lnLen = 1
+lnLen = 58
+lnLen = 10
+lnLen = 9
+lnLen = 1
+lnLen = 17
+lnLen = 9
+lnLen = 44
+lnLen = 1
+lnLen = 50
+lnLen = 28
+lnLen = 1
+lnLen = 41
+lnLen = 30
+lnLen = 1
+lnLen = 9
+lnLen = 53
+lnLen = 1
+lnLen = 9
+lnLen = 48
+lnLen = 14
+lnLen = 1
+lnLen = 27
+lnLen = 12
+lnLen = 18
+lnLen = 10
+lnLen = 1
+lnLen = 52
+lnLen = 19
+lnLen = 1
+lnLen = 18
+lnLen = 31
+lnLen = 10
+lnLen = 20
+lnLen = 1
+lnLen = 62
+lnLen = 1
+lnLen = 50
+lnLen = 19
+lnLen = 1
+lnLen = 8
+lnLen = 12
+lnLen = 8
+lnLen = 50
+lnLen = 1
+lnLen = 21
+lnLen = 19
+lnLen = 9
+lnLen = 14
+lnLen = 8
+lnLen = 1
+lnLen = 47
+lnLen = 23
+lnLen = 1
+lnLen = 16
+lnLen = 10
+lnLen = 52
+lnLen = 1
+lnLen = 28
+lnLen = 9
+lnLen = 20
+lnLen = 14
+lnLen = 1
+lnLen = 18
+lnLen = 45
+lnLen = 8
+lnLen = 1
+lnLen = 30
+lnLen = 24
+lnLen = 17
+lnLen = 1
+lnLen = 9
+lnLen = 17
+lnLen = 53
+lnLen = 1
+lnLen = 71
+lnLen = 8
+lnLen = 1
+lnLen = 8
+lnLen = 9
+lnLen = 9
+lnLen = 19
+lnLen = 26
+lnLen = 1
+lnLen = 16
+lnLen = 10
+lnLen = 38
+lnLen = 1
+lnLen = 67
+lnLen = 1
+lnLen = 19
+lnLen = 9
+lnLen = 35
+lnLen = 8
+lnLen = 1
+lnLen = 40
+lnLen = 17
+lnLen = 22
+lnLen = 1
+lnLen = 23
+lnLen = 18
+lnLen = 8
+lnLen = 12
+lnLen = 10
+lnLen = 1
+lnLen = 20
+lnLen = 43
+lnLen = 1
+lnLen = 9
+lnLen = 18
+lnLen = 14
+lnLen = 30
+lnLen = 8
+lnLen = 1
+lnLen = 18
+lnLen = 31
+lnLen = 12
+lnLen = 1
+lnLen = 35
+lnLen = 26
+lnLen = 18
+lnLen = 1
+lnLen = 55
+lnLen = 20
+lnLen = 1
+lnLen = 8
+lnLen = 9
+lnLen = 9
+lnLen = 22
+lnLen = 1
+lnLen = 48
+lnLen = 31
+lnLen = 1
+lnLen = 20
+lnLen = 49
+lnLen = 9
+lnLen = 1
+lnLen = 12
+lnLen = 9
+lnLen = 27
+lnLen = 14
+lnLen = 17
+lnLen = 1
+lnLen = 68
+lnLen = 1
+lnLen = 18
+lnLen = 59
+lnLen = 1
+lnLen = 41
+lnLen = 29
+lnLen = 1
+lnLen = 22
+lnLen = 27
+lnLen = 9
+lnLen = 12
+lnLen = 1
+lnLen = 50
+lnLen = 21
+lnLen = 1
+lnLen = 50
+lnLen = 21
+lnLen = 1
+lnLen = 21
+lnLen = 33
+lnLen = 17
+lnLen = 1
+lnLen = 10
+lnLen = 61
+lnLen = 1
+lnLen = 43
+lnLen = 19
+lnLen = 8
+lnLen = 9
+lnLen = 1
+lnLen = 9
+lnLen = 58
+lnLen = 1
+lnLen = 27
+lnLen = 52
+lnLen = 1
+lnLen = 8
+lnLen = 72
+lnLen = 1
+lnLen = 19
+lnLen = 52
+lnLen = 1
+lnLen = 23
+lnLen = 46
+lnLen = 1
+lnLen = 44
+lnLen = 16
+lnLen = 1
+lnLen = 33
+lnLen = 12
+lnLen = 26
+lnLen = 1
+lnLen = 12
+lnLen = 49
+lnLen = 1
+lnLen = 71
+lnLen = 1
+lnLen = 9
+lnLen = 66
+lnLen = 1
+lnLen = 40
+lnLen = 10
+lnLen = 12
+lnLen = 1
+lnLen = 70
+lnLen = 1
+lnLen = 59
+lnLen = 1
+lnLen = 18
+lnLen = 31
+lnLen = 8
+lnLen = 22
+lnLen = 1
+lnLen = 9
+lnLen = 12
+lnLen = 9
+lnLen = 17
+lnLen = 9
+lnLen = 14
+lnLen = 1
+lnLen = 9
+lnLen = 42
+lnLen = 1
+lnLen = 26
+lnLen = 9
+lnLen = 26
+lnLen = 9
+lnLen = 1
+lnLen = 31
+lnLen = 21
+lnLen = 9
+lnLen = 1
+lnLen = 27
+lnLen = 13
+lnLen = 30
+lnLen = 1
+lnLen = 68
+lnLen = 1
+lnLen = 22
+lnLen = 40
+lnLen = 1
+lnLen = 70
+lnLen = 1
+lnLen = 22
+lnLen = 9
+lnLen = 9
+lnLen = 31
+lnLen = 1
+lnLen = 28
+lnLen = 22
+lnLen = 9
+lnLen = 1
+lnLen = 19
+lnLen = 52
+lnLen = 12
+lnLen = 1
+lnLen = 53
+lnLen = 26
+lnLen = 1
+lnLen = 12
+lnLen = 67
+lnLen = 1
+lnLen = 50
+lnLen = 10
+lnLen = 18
+lnLen = 1
+lnLen = 53
+lnLen = 18
+lnLen = 1
+lnLen = 19
+lnLen = 52
+lnLen = 1
+lnLen = 16
+lnLen = 12
+lnLen = 12
+lnLen = 9
+lnLen = 18
+lnLen = 1
+lnLen = 17
+lnLen = 14
+lnLen = 21
+lnLen = 27
+lnLen = 1
+lnLen = 70
+lnLen = 1
+lnLen = 71
+lnLen = 1
+lnLen = 43
+lnLen = 10
+lnLen = 17
+lnLen = 9
+lnLen = 1
+lnLen = 59
+lnLen = 17
+lnLen = 1
+lnLen = 55
+lnLen = 1
+lnLen = 16
+lnLen = 17
+lnLen = 17
+lnLen = 8
+lnLen = 1
+lnLen = 18
+lnLen = 10
+lnLen = 22
+lnLen = 9
+lnLen = 12
+lnLen = 1
+lnLen = 9
+lnLen = 41
+lnLen = 29
+lnLen = 1
+lnLen = 10
+lnLen = 42
+lnLen = 27
+lnLen = 1
+lnLen = 30
+lnLen = 45
+lnLen = 1
+lnLen = 8
+lnLen = 40
+lnLen = 1
+lnLen = 51
+lnLen = 8
+lnLen = 8
+lnLen = 1
+lnLen = 22
+lnLen = 9
+lnLen = 6
+lnLen = 19
+lnLen = 9
+lnLen = 1
+lnLen = 10
+lnLen = 35
+lnLen = 26
+lnLen = 1
+lnLen = 70
+lnLen = 1
+lnLen = 44
+lnLen = 27
+lnLen = 1
+lnLen = 71
+lnLen = 1
+lnLen = 18
+lnLen = 19
+lnLen = 34
+lnLen = 1
+lnLen = 23
+lnLen = 56
+lnLen = 1
+lnLen = 52
+lnLen = 26
+lnLen = 1
+lnLen = 12
+lnLen = 18
+lnLen = 31
+lnLen = 10
+lnLen = 1
+lnLen = 9
+lnLen = 17
+lnLen = 42
+lnLen = 10
+lnLen = 1
+lnLen = 28
+lnLen = 12
+lnLen = 17
+lnLen = 1
+lnLen = 18
+lnLen = 61
+lnLen = 1
+lnLen = 10
+lnLen = 9
+lnLen = 20
+lnLen = 32
+lnLen = 1
+lnLen = 35
+lnLen = 19
+lnLen = 9
+lnLen = 8
+lnLen = 1
+lnLen = 7
+lnLen = 59
+lnLen = 12
+lnLen = 1
+lnLen = 65
+lnLen = 9
+lnLen = 1
+lnLen = 9
+lnLen = 52
+lnLen = 1
+lnLen = 18
+lnLen = 10
+lnLen = 22
+lnLen = 21
+lnLen = 1
+lnLen = 21
+lnLen = 8
+lnLen = 17
+lnLen = 19
+lnLen = 14
+lnLen = 1
+lnLen = 20
+lnLen = 51
+lnLen = 1
+lnLen = 9
+lnLen = 9
+lnLen = 19
+lnLen = 12
+lnLen = 22
+lnLen = 1
+lnLen = 30
+lnLen = 22
+lnLen = 19
+lnLen = 1
+lnLen = 8
+lnLen = 9
+lnLen = 9
+lnLen = 45
+lnLen = 1
+lnLen = 32
+lnLen = 18
+lnLen = 12
+lnLen = 1
+lnLen = 71
+lnLen = 1
+lnLen = 45
+lnLen = 17
+lnLen = 1
+lnLen = 9
+lnLen = 9
+lnLen = 40
+lnLen = 9
+lnLen = 1
+lnLen = 31
+lnLen = 31
+lnLen = 10
+lnLen = 1
+lnLen = 9
+lnLen = 62
+lnLen = 1
+lnLen = 31
+lnLen = 29
+lnLen = 1
+lnLen = 8
+lnLen = 41
+lnLen = 18
+lnLen = 12
+lnLen = 1
+lnLen = 32
+lnLen = 9
+lnLen = 21
+lnLen = 1
+lnLen = 51
+lnLen = 27
+lnLen = 1
+lnLen = 48
+lnLen = 1
+lnLen = 79
+lnLen = 1
+lnLen = 27
+lnLen = 9
+lnLen = 21
+lnLen = 1
+lnLen = 10
+lnLen = 9
+lnLen = 8
+lnLen = 29
+lnLen = 23
+lnLen = 1
+lnLen = 31
+lnLen = 23
+lnLen = 9
+lnLen = 1
+lnLen = 12
+lnLen = 62
+lnLen = 1
+lnLen = 39
+lnLen = 32
+lnLen = 1
+lnLen = 17
+lnLen = 53
+lnLen = 1
+lnLen = 9
+lnLen = 34
+lnLen = 9
+lnLen = 9
+lnLen = 1
+lnLen = 9
+lnLen = 69
+lnLen = 1
+lnLen = 23
+lnLen = 9
+lnLen = 34
+lnLen = 12
+lnLen = 1
+lnLen = 10
+lnLen = 17
+lnLen = 17
+lnLen = 12
+lnLen = 14
+lnLen = 1
+lnLen = 27
+lnLen = 32
+lnLen = 12
+lnLen = 1
+lnLen = 20
+lnLen = 10
+lnLen = 40
+lnLen = 9
+lnLen = 1
+lnLen = 43
+lnLen = 28
+lnLen = 1
+lnLen = 23
+lnLen = 17
+lnLen = 8
+lnLen = 21
+lnLen = 10
+lnLen = 1
+lnLen = 10
+lnLen = 22
+lnLen = 9
+lnLen = 21
+lnLen = 8
+lnLen = 1
+lnLen = 8
+lnLen = 22
+lnLen = 9
+lnLen = 22
+lnLen = 1
+lnLen = 71
+lnLen = 1
+lnLen = 26
+lnLen = 45
+lnLen = 1
+lnLen = 14
+lnLen = 26
+lnLen = 12
+lnLen = 27
+lnLen = 1
+lnLen = 9
+lnLen = 12
+lnLen = 33
+lnLen = 8
+lnLen = 1
+lnLen = 71
+lnLen = 1
+lnLen = 58
+lnLen = 12
+lnLen = 1
+lnLen = 20
+lnLen = 28
+lnLen = 18
+lnLen = 9
+lnLen = 1
+lnLen = 69
+lnLen = 1
+lnLen = 30
+lnLen = 49
+lnLen = 1
+lnLen = 36
+lnLen = 8
+lnLen = 26
+lnLen = 1
+lnLen = 9
+lnLen = 9
+lnLen = 29
+lnLen = 17
+lnLen = 6
+lnLen = 1
+lnLen = 41
+lnLen = 28
+lnLen = 9
+lnLen = 1
+lnLen = 27
+lnLen = 45
+lnLen = 1
+lnLen = 14
+lnLen = 9
+lnLen = 41
+lnLen = 1
+lnLen = 29
+lnLen = 23
+lnLen = 1
+lnLen = 14
+lnLen = 19
+lnLen = 37
+lnLen = 9
+lnLen = 1
+lnLen = 14
+lnLen = 38
+lnLen = 17
+lnLen = 1
+lnLen = 27
+lnLen = 31
+lnLen = 1
+lnLen = 29
+lnLen = 39
+lnLen = 9
+lnLen = 1
+lnLen = 8
+lnLen = 17
+lnLen = 54
+lnLen = 1
+lnLen = 54
+lnLen = 25
+lnLen = 1
+lnLen = 20
+lnLen = 10
+lnLen = 9
+lnLen = 40
+lnLen = 1
+lnLen = 9
+lnLen = 15
+lnLen = 39
+lnLen = 1
+lnLen = 7
+lnLen = 46
+lnLen = 9
+lnLen = 8
+lnLen = 1
+lnLen = 9
+lnLen = 9
+lnLen = 22
+lnLen = 31
+lnLen = 1
+lnLen = 33
+lnLen = 17
+lnLen = 21
+lnLen = 1
+lnLen = 65
+lnLen = 14
+lnLen = 1
+lnLen = 12
+lnLen = 19
+lnLen = 26
+lnLen = 14
+lnLen = 1
+lnLen = 51
+lnLen = 20
+lnLen = 1
+lnLen = 54
+lnLen = 17
+lnLen = 1
+lnLen = 46
+lnLen = 9
+lnLen = 9
+lnLen = 1
+lnLen = 54
+lnLen = 10
+lnLen = 8
+lnLen = 1
+lnLen = 38
+lnLen = 27
+lnLen = 8
+lnLen = 1
+lnLen = 8
+lnLen = 32
+lnLen = 9
+lnLen = 20
+lnLen = 1
+lnLen = 15
+lnLen = 9
+lnLen = 26
+lnLen = 12
+lnLen = 1
+lnLen = 80
+lnLen = 1
+lnLen = 9
+lnLen = 10
+lnLen = 38
+lnLen = 22
+lnLen = 1
+lnLen = 21
+lnLen = 7
+lnLen = 17
+lnLen = 9
+lnLen = 1
+lnLen = 41
+lnLen = 9
+lnLen = 1
+lnLen = 27
+lnLen = 35
+lnLen = 9
+lnLen = 1
+lnLen = 10
+lnLen = 21
+lnLen = 39
+lnLen = 9
+lnLen = 1
+lnLen = 70
+lnLen = 1
+lnLen = 38
+lnLen = 33
+lnLen = 1
+lnLen = 29
+lnLen = 41
+lnLen = 9
+lnLen = 1
+lnLen = 32
+lnLen = 31
+lnLen = 1
+lnLen = 18
+lnLen = 45
+lnLen = 8
+lnLen = 1
+lnLen = 70
+lnLen = 1
+lnLen = 61
+lnLen = 1
+lnLen = 17
+lnLen = 62
+lnLen = 1
+lnLen = 20
+lnLen = 59
+lnLen = 1
+lnLen = 65
+lnLen = 1
+lnLen = 12
+lnLen = 54
+lnLen = 1
+lnLen = 62
+lnLen = 1
+lnLen = 10
+lnLen = 17
+lnLen = 9
+lnLen = 22
+lnLen = 1
+lnLen = 21
+lnLen = 58
+lnLen = 1
+lnLen = 62
+lnLen = 8
+lnLen = 9
+lnLen = 1
+lnLen = 21
+lnLen = 17
+lnLen = 10
+lnLen = 23
+lnLen = 1
+lnLen = 17
+lnLen = 22
+lnLen = 32
+lnLen = 1
+lnLen = 9
+lnLen = 21
+lnLen = 9
+lnLen = 24
+lnLen = 8
+lnLen = 1
+lnLen = 26
+lnLen = 53
+lnLen = 1
+lnLen = 40
+lnLen = 12
+lnLen = 9
+lnLen = 1
+lnLen = 38
+lnLen = 33
+lnLen = 1
+lnLen = 17
+lnLen = 42
+lnLen = 20
+lnLen = 1
+lnLen = 18
+lnLen = 8
+lnLen = 10
+lnLen = 14
+lnLen = 21
+lnLen = 1
+lnLen = 14
+lnLen = 65
+lnLen = 1
+lnLen = 55
+lnLen = 1
+lnLen = 49
+lnLen = 22
+lnLen = 1
+lnLen = 14
+lnLen = 30
+lnLen = 18
+lnLen = 1
+lnLen = 18
+lnLen = 18
+lnLen = 12
+lnLen = 23
+lnLen = 1
+lnLen = 41
+lnLen = 29
+lnLen = 1
+lnLen = 9
+lnLen = 21
+lnLen = 14
+lnLen = 34
+lnLen = 1
+lnLen = 17
+lnLen = 8
+lnLen = 44
+lnLen = 9
+lnLen = 1
+lnLen = 28
+lnLen = 12
+lnLen = 34
+lnLen = 1
+lnLen = 27
+lnLen = 12
+lnLen = 24
+lnLen = 1
+lnLen = 21
+lnLen = 17
+lnLen = 41
+lnLen = 1
+lnLen = 79
+lnLen = 1
+lnLen = 9
+lnLen = 31
+lnLen = 43
+lnLen = 1
+lnLen = 9
+lnLen = 36
+lnLen = 26
+lnLen = 1
+lnLen = 23
+lnLen = 18
+lnLen = 9
+lnLen = 12
+lnLen = 9
+lnLen = 1
+lnLen = 12
+lnLen = 59
+lnLen = 1
+lnLen = 47
+lnLen = 24
+lnLen = 1
+lnLen = 29
+lnLen = 14
+lnLen = 17
+lnLen = 9
+lnLen = 1
+lnLen = 8
+lnLen = 12
+lnLen = 51
+lnLen = 1
+lnLen = 8
+lnLen = 21
+lnLen = 8
+lnLen = 23
+lnLen = 9
+lnLen = 1
+lnLen = 9
+lnLen = 61
+lnLen = 9
+lnLen = 1
+lnLen = 17
+lnLen = 8
+lnLen = 54
+lnLen = 1
+lnLen = 39
+lnLen = 7
+lnLen = 31
+lnLen = 1
+lnLen = 26
+lnLen = 45
+lnLen = 1
+lnLen = 14
+lnLen = 30
+lnLen = 18
+lnLen = 9
+lnLen = 1
+lnLen = 21
+lnLen = 6
+lnLen = 9
+lnLen = 9
+lnLen = 27
+lnLen = 1
+lnLen = 9
+lnLen = 30
+lnLen = 26
+lnLen = 14
+lnLen = 1
+lnLen = 71
+lnLen = 1
+lnLen = 9
+lnLen = 29
+lnLen = 41
+lnLen = 1
+lnLen = 34
+lnLen = 9
+lnLen = 18
+lnLen = 1
+lnLen = 9
+lnLen = 12
+lnLen = 8
+lnLen = 36
+lnLen = 1
+lnLen = 49
+lnLen = 9
+lnLen = 9
+lnLen = 1
+lnLen = 59
+lnLen = 1
+lnLen = 48
+lnLen = 31
+lnLen = 1
+lnLen = 18
+lnLen = 52
+lnLen = 1
+lnLen = 26
+lnLen = 44
+lnLen = 8
+lnLen = 1
+lnLen = 28
+lnLen = 35
+lnLen = 8
+lnLen = 1
+lnLen = 36
+lnLen = 10
+lnLen = 1
+lnLen = 48
+lnLen = 14
 
 lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
 
-lnLen = 10
-
-lnLen = 1
-
-lnLen = 1
-
-lnLen = 35
-
-lnLen = 35
-
-lnLen = 26
-
-lnLen = 26
-
-lnLen = -1
-
-****Error, exiting****
-
-lnLen = 43
+lnLen = 60
+Found: iyr
 Found: eyr
 Found: hcl
 Found: ecl
 Found: pid
-passsTotal = 4
-
-lnLen = 36
-Found: byr
-Found: iyr
-Found: hgt
 Found: cid
-passsTotal = 8
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 8
 
 lnLen = 1
 Good Passports = 1
 
-lnLen = 48
+lnLen = 9
 Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 40
+Found: byr
 Found: eyr
 Found: ecl
 Found: pid
-Found: cid
-passsTotal = 5
-
-lnLen = 21
-Found: byr
-Found: hcl
-passsTotal = 7
+Total number of fields in the passport = 5
 
 lnLen = 1
+
+lnLen = 51
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 27
+Found: byr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 2
+
+lnLen = 29
+Found: iyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 32
+Found: byr
+Found: eyr
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 3
+
+lnLen = 31
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 34
+Found: iyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
 
 lnLen = 21
 Found: iyr
 Found: hcl
-passsTotal = 2
+Total number of fields in the passport = 3
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 23
+Found: eyr
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 4
+
+lnLen = 17
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 44
+Found: byr
+Found: iyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 40
+Found: byr
+Found: iyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 61
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 35
+Found: byr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 36
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 5
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 30
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 28
+Found: byr
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 6
+
+lnLen = 27
+Found: byr
+Found: iyr
+Found: eyr
+Total number of fields in the passport = 3
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 17
+Found: hgt
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 49
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 7
+
+lnLen = 50
+Found: byr
+Found: iyr
+Found: hgt
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 9
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 42
+Found: byr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
 
 lnLen = 9
 Found: eyr
-passsTotal = 3
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 1
+
+lnLen = 48
+Found: byr
+Found: iyr
+Found: eyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 53
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 16
+Found: iyr
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 51
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 8
+
+lnLen = 31
+Found: byr
+Found: pid
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 18
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 9
 
 lnLen = 31
 Found: byr
 Found: ecl
 Found: pid
-passsTotal = 6
+Total number of fields in the passport = 3
+
+lnLen = 20
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 6
+
+lnLen = 15
+Found: hgt
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 10
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 41
+Found: iyr
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
 
 lnLen = 10
 Found: hgt
-passsTotal = 7
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 7
 
 lnLen = 1
-Good Passports = 2
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 51
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: hcl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 11
+
+lnLen = 30
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 49
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 12
+
+lnLen = 39
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 13
+
+lnLen = 19
+Found: eyr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 48
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 14
+
+lnLen = 79
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 15
+
+lnLen = 52
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 26
+Found: byr
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 16
+
+lnLen = 79
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 17
+
+lnLen = 40
+Found: iyr
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 5
+
+lnLen = 31
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 18
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 59
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 19
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 48
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 20
+
+lnLen = 36
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 5
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 27
+Found: byr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 4
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 6
+
+lnLen = 23
+Found: hgt
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 21
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 25
+Found: byr
+Found: iyr
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 22
+Found: hgt
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 22
+
+lnLen = 33
+Found: iyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 38
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 23
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 3
+
+lnLen = 47
+Found: byr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 24
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 19
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 5
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 25
+
+lnLen = 58
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 26
+
+lnLen = 17
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 3
+
+lnLen = 44
+Found: byr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 27
+
+lnLen = 50
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 28
+Found: byr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 28
+
+lnLen = 41
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 30
+Found: byr
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 29
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 53
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 48
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 30
+
+lnLen = 27
+Found: iyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 18
+Found: byr
+Found: eyr
+Total number of fields in the passport = 6
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 52
+Found: byr
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 19
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 31
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 2
+
+lnLen = 31
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 6
+
+lnLen = 20
+Found: hcl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 32
+
+lnLen = 62
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 50
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 19
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 33
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 50
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 34
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 19
+Found: byr
+Found: hgt
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 5
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 35
+
+lnLen = 47
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 23
+Found: hgt
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 36
+
+lnLen = 16
+Found: eyr
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 52
+Found: byr
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 37
+
+lnLen = 28
+Found: byr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 4
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 38
+
+lnLen = 18
+Found: byr
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 45
+Found: iyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 39
+
+lnLen = 30
+Found: iyr
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 24
+Found: hgt
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 40
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 1
+
+lnLen = 17
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 53
+Found: iyr
+Found: hgt
+Found: hcl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 41
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 42
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 3
+
+lnLen = 19
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 5
+
+lnLen = 26
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 43
+
+lnLen = 16
+Found: iyr
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 38
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 67
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 19
+Found: byr
+Found: hgt
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 3
+
+lnLen = 35
+Found: iyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 44
+
+lnLen = 40
+Found: byr
+Found: eyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 17
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 45
+
+lnLen = 23
+Found: eyr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 4
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 46
+
+lnLen = 20
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 43
+Found: byr
+Found: iyr
+Found: eyr
+Found: ecl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 1
+
+lnLen = 18
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 30
+Found: iyr
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 47
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 2
+
+lnLen = 31
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 35
+Found: iyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 26
+Found: byr
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 18
+Found: hgt
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 48
+
+lnLen = 55
+Found: byr
+Found: iyr
+Found: eyr
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 20
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 49
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 3
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 48
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 31
+Found: eyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 50
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 49
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 51
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 27
+Found: iyr
+Found: hgt
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 52
+
+lnLen = 68
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 18
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 2
+
+lnLen = 59
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 53
+
+lnLen = 41
+Found: byr
+Found: iyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 29
+Found: eyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 54
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 27
+Found: byr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 6
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 55
+
+lnLen = 50
+Found: byr
+Found: iyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 56
+
+lnLen = 50
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 57
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 33
+Found: iyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 17
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 58
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 61
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 59
+
+lnLen = 43
+Found: eyr
+Found: hcl
+Found: pid
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 19
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 60
+
+lnLen = 9
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 58
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 61
+
+lnLen = 27
+Found: iyr
+Found: hgt
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 52
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 62
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 1
+
+lnLen = 72
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 63
+
+lnLen = 19
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 2
+
+lnLen = 52
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 64
+
+lnLen = 23
+Found: eyr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 46
+Found: byr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 44
+Found: byr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 16
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 33
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 26
+Found: byr
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 65
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 1
+
+lnLen = 49
+Found: byr
+Found: iyr
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 66
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 66
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 67
+
+lnLen = 40
+Found: byr
+Found: eyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 5
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 70
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 59
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 18
+Found: iyr
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 31
+Found: byr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 68
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 3
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: hgt
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 69
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 42
+Found: byr
+Found: iyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 26
+Found: byr
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 4
+
+lnLen = 26
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 70
+
+lnLen = 31
+Found: byr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 27
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 13
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 30
+Found: byr
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 71
+
+lnLen = 68
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 40
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 70
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 4
+
+lnLen = 31
+Found: iyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 28
+Found: iyr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 19
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 2
+
+lnLen = 52
+Found: byr
+Found: eyr
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 72
+
+lnLen = 53
+Found: byr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 26
+Found: iyr
+Found: eyr
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 73
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 1
+
+lnLen = 67
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 74
+
+lnLen = 50
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 6
+
+lnLen = 18
+Found: byr
+Found: eyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 75
+
+lnLen = 53
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 18
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 76
+
+lnLen = 19
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 2
+
+lnLen = 52
+Found: byr
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 77
+
+lnLen = 16
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 12
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 5
+
+lnLen = 18
+Found: iyr
+Found: eyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 78
+
+lnLen = 17
+Found: iyr
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 27
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 79
+
+lnLen = 70
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 80
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 81
+
+lnLen = 43
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 5
+
+lnLen = 17
+Found: byr
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 82
+
+lnLen = 59
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 83
+
+lnLen = 55
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 16
+Found: hcl
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 17
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 4
+
+lnLen = 17
+Found: iyr
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 18
+Found: iyr
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 84
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 41
+Found: byr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 29
+Found: eyr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 85
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 42
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 27
+Found: byr
+Found: iyr
+Found: eyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 86
+
+lnLen = 30
+Found: byr
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 45
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 87
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 40
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 51
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 3
+
+lnLen = 6
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 19
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 88
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
 
 lnLen = 35
 Found: eyr
 Found: hcl
 Found: pid
-passsTotal = 3
+Total number of fields in the passport = 4
+
+lnLen = 26
+Found: byr
+Found: iyr
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 70
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 44
+Found: byr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 27
+Found: iyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 89
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 90
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 2
+
+lnLen = 19
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 4
+
+lnLen = 34
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 91
+
+lnLen = 23
+Found: iyr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 56
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 92
+
+lnLen = 52
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 26
+Found: hcl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 93
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 1
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 3
+
+lnLen = 31
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 94
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 1
+
+lnLen = 17
+Found: eyr
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 42
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 95
+
+lnLen = 28
+Found: byr
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 17
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 18
+Found: hgt
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 61
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 96
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 32
+Found: byr
+Found: iyr
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 97
+
+lnLen = 35
+Found: iyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 19
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 98
+
+lnLen = 7
+Found: cid
+Total number of fields in the passport = 1
+
+lnLen = 59
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 99
+
+lnLen = 65
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 100
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 52
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 2
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 101
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 17
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 19
+Found: byr
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 102
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 51
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 103
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 2
+
+lnLen = 19
+Found: iyr
+Found: hgt
+Total number of fields in the passport = 4
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 104
+
+lnLen = 30
+Found: byr
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 19
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 105
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 3
+
+lnLen = 45
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 106
+
+lnLen = 32
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 5
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 107
+
+lnLen = 45
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 2
+
+lnLen = 40
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 108
+
+lnLen = 31
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 31
+Found: byr
+Found: iyr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 109
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 62
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 110
+
+lnLen = 31
+Found: byr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 29
+Found: eyr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 1
+
+lnLen = 41
+Found: byr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 18
+Found: iyr
+Found: eyr
+Total number of fields in the passport = 7
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 111
+
+lnLen = 32
+Found: byr
+Found: eyr
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 4
+
+lnLen = 21
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 51
+Found: byr
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 27
+Found: iyr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 112
+
+lnLen = 48
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 79
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 113
+
+lnLen = 27
+Found: iyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 4
+
+lnLen = 21
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 2
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 29
+Found: eyr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 23
+Found: iyr
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 114
+
+lnLen = 31
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 23
+Found: eyr
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 62
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 115
+
+lnLen = 39
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 32
+Found: byr
+Found: iyr
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 116
+
+lnLen = 17
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 53
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 117
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 1
+
+lnLen = 34
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 69
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 118
+
+lnLen = 23
+Found: byr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 3
+
+lnLen = 34
+Found: iyr
+Found: hgt
+Found: ecl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 119
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 17
+Found: eyr
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 27
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 32
+Found: byr
+Found: iyr
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 120
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 40
+Found: byr
+Found: eyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 121
+
+lnLen = 43
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 28
+Found: byr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 122
+
+lnLen = 23
+Found: eyr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 17
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 123
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 22
+Found: pid
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 4
+
+lnLen = 21
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 4
+
+lnLen = 22
+Found: pid
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 124
+
+lnLen = 26
+Found: byr
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 45
+Found: iyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 125
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 26
+Found: iyr
+Found: eyr
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 27
+Found: byr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 126
+
+lnLen = 9
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 12
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 33
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 127
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 128
+
+lnLen = 58
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 129
+
+lnLen = 20
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 28
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 18
+Found: byr
+Found: hgt
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 130
+
+lnLen = 69
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 131
+
+lnLen = 30
+Found: iyr
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 49
+Found: byr
+Found: hgt
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 132
+
+lnLen = 36
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 26
+Found: iyr
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 29
+Found: byr
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 17
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 6
+Found: hcl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 133
+
+lnLen = 41
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 28
+Found: iyr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 134
+
+lnLen = 27
+Found: iyr
+Found: pid
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 45
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 135
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 2
+
+lnLen = 41
+Found: byr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 29
+Found: iyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 23
+Found: eyr
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 19
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 37
+Found: byr
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 136
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 38
+Found: iyr
+Found: eyr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 27
+Found: byr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 31
+Found: iyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 29
+Found: byr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 39
+Found: eyr
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 137
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 1
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 54
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 138
+
+lnLen = 54
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 25
+Found: iyr
+Found: ecl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 139
+
+lnLen = 20
+Found: hcl
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 4
+
+lnLen = 40
+Found: iyr
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 140
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 15
+Found: byr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 39
+Found: iyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 141
+
+lnLen = 7
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 46
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 7
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 142
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 31
+Found: byr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 143
+
+lnLen = 33
+Found: iyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 17
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 144
+
+lnLen = 65
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 145
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 1
+
+lnLen = 19
+Found: byr
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 26
+Found: iyr
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 146
+
+lnLen = 51
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 147
+
+lnLen = 54
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 148
+
+lnLen = 46
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 54
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 10
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 149
+
+lnLen = 38
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 27
+Found: iyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 150
+
+lnLen = 8
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 32
+Found: byr
+Found: eyr
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 5
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 151
+
+lnLen = 15
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 2
+
+lnLen = 26
+Found: byr
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 80
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 152
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 2
+
+lnLen = 38
+Found: byr
+Found: iyr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 153
+
+lnLen = 21
+Found: iyr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 7
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 17
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 41
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 27
+Found: byr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 35
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 154
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 39
+Found: iyr
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 155
+
+lnLen = 70
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 38
+Found: byr
+Found: iyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 33
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 156
+
+lnLen = 29
+Found: byr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 41
+Found: iyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 157
+
+lnLen = 32
+Found: byr
+Found: iyr
+Found: pid
+Total number of fields in the passport = 3
+
+lnLen = 31
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 18
+Found: byr
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 45
+Found: iyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 158
+
+lnLen = 70
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 159
+
+lnLen = 61
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 17
+Found: byr
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 62
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 160
+
+lnLen = 20
+Found: hcl
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 59
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 161
+
+lnLen = 65
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 162
+
+lnLen = 12
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 54
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 163
+
+lnLen = 62
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 1
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 4
+
+lnLen = 22
+Found: eyr
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 58
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 164
+
+lnLen = 62
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 165
+
+lnLen = 21
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 17
+Found: byr
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 5
+
+lnLen = 23
+Found: eyr
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 166
+
+lnLen = 17
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 22
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 32
+Found: byr
+Found: iyr
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 167
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 4
+
+lnLen = 24
+Found: hgt
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 168
+
+lnLen = 26
+Found: iyr
+Found: eyr
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 53
+Found: byr
+Found: hgt
+Found: hcl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 169
+
+lnLen = 40
+Found: byr
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 38
+Found: byr
+Found: eyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 33
+Found: iyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 170
+
+lnLen = 17
+Found: byr
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 42
+Found: iyr
+Found: eyr
+Found: hgt
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 20
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 171
+
+lnLen = 18
+Found: byr
+Found: eyr
+Total number of fields in the passport = 2
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 4
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 5
+
+lnLen = 21
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 172
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 65
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 173
+
+lnLen = 55
+Found: iyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 49
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 22
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 174
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 30
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 18
+Found: byr
+Found: iyr
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 18
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 18
+Found: byr
+Found: eyr
+Total number of fields in the passport = 4
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 23
+Found: iyr
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 175
+
+lnLen = 41
+Found: byr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 29
+Found: iyr
+Found: eyr
+Found: hcl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 176
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 21
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 34
+Found: byr
+Found: hgt
+Found: ecl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 177
+
+lnLen = 17
+Found: eyr
+Found: cid
+Total number of fields in the passport = 2
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 44
+Found: byr
+Found: iyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: hgt
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 178
+
+lnLen = 28
+Found: byr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 3
+
+lnLen = 12
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 34
+Found: iyr
+Found: eyr
+Found: hgt
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 179
+
+lnLen = 27
+Found: byr
+Found: iyr
+Found: eyr
+Total number of fields in the passport = 3
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 24
+Found: hgt
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 1
+
+lnLen = 21
+Found: byr
+Found: hcl
+Total number of fields in the passport = 2
+
+lnLen = 17
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 41
+Found: eyr
+Found: hgt
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 180
+
+lnLen = 79
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 181
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 1
+
+lnLen = 31
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 43
+Found: iyr
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 182
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 1
+
+lnLen = 36
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 26
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 183
+
+lnLen = 23
+Found: byr
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 18
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 5
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 184
+
+lnLen = 12
+Found: hcl
+Total number of fields in the passport = 1
+
+lnLen = 59
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 185
+
+lnLen = 47
+Found: byr
+Found: iyr
+Found: eyr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 5
+
+lnLen = 24
+Found: hgt
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 186
+
+lnLen = 29
+Found: byr
+Found: hcl
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 17
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 12
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 51
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 187
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 1
+
+lnLen = 21
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 4
+
+lnLen = 23
+Found: byr
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 61
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 188
+
+lnLen = 17
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 8
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 54
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 189
+
+lnLen = 39
+Found: byr
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 7
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 31
+Found: iyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 190
+
+lnLen = 26
+Found: hcl
+Found: pid
+Total number of fields in the passport = 2
+
+lnLen = 45
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 191
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 1
+
+lnLen = 30
+Found: byr
+Found: iyr
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 18
+Found: hgt
+Found: ecl
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 192
+
+lnLen = 21
+Found: iyr
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 6
+Found: hcl
+Total number of fields in the passport = 3
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 5
+
+lnLen = 27
+Found: hgt
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 193
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 1
+
+lnLen = 30
+Found: hgt
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 26
+Found: byr
+Found: iyr
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 194
+
+lnLen = 71
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 195
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 29
+Found: byr
+Found: hcl
+Found: ecl
+Total number of fields in the passport = 4
+
+lnLen = 41
+Found: eyr
+Found: hgt
+Found: pid
+Found: cid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 196
+
+lnLen = 34
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 4
+
+lnLen = 9
+Found: eyr
+Total number of fields in the passport = 5
+
+lnLen = 18
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 197
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 1
+
+lnLen = 12
+Found: ecl
+Total number of fields in the passport = 2
+
+lnLen = 8
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 36
+Found: byr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 198
+
+lnLen = 49
+Found: eyr
+Found: hgt
+Found: ecl
+Found: pid
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 9
+Found: iyr
+Total number of fields in the passport = 6
+
+lnLen = 9
+Found: byr
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 59
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Found: ecl
+Found: cid
+Total number of fields in the passport = 7
+
+lnLen = 1
+
+lnLen = 48
+Found: byr
+Found: iyr
+Found: hgt
+Found: hcl
+Found: cid
+Total number of fields in the passport = 5
+
+lnLen = 31
+Found: eyr
+Found: ecl
+Found: pid
+Total number of fields in the passport = 8
+
+lnLen = 1
+Good Passports = 199
+
+lnLen = 18
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 2
+
+lnLen = 52
+Found: byr
+Found: iyr
+Found: hcl
+Found: ecl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 200
 
 lnLen = 26
 Found: iyr
 Found: hgt
+Found: cid
+Total number of fields in the passport = 3
+
+lnLen = 44
+Found: byr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 7
+
+lnLen = 8
 Found: ecl
-passsTotal = 6
+Total number of fields in the passport = 8
 
-lnLen = -1
+lnLen = 1
+Good Passports = 201
 
-****Error, exiting****
+lnLen = 28
+Found: iyr
+Found: eyr
+Found: hgt
+Total number of fields in the passport = 3
+
+lnLen = 35
+Found: byr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 6
+
+lnLen = 8
+Found: ecl
+Total number of fields in the passport = 7
+
+lnLen = 1
+Good Passports = 202
+
+lnLen = 36
+Found: iyr
+Found: eyr
+Found: hcl
+Found: pid
+Total number of fields in the passport = 4
+
+lnLen = 10
+Found: hgt
+Total number of fields in the passport = 5
+
+lnLen = 1
+
+lnLen = 48
+Found: byr
+Found: iyr
+Found: eyr
+Found: hgt
+Found: hcl
+Total number of fields in the passport = 5
+
+lnLen = 14
+Found: pid
+Total number of fields in the passport = 6
+Number of Good Passports: 202

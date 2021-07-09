@@ -2,7 +2,7 @@
 //Wed Jul  7 11:49:51 UTC 2021
 //Find the three entries into expens report that sum to 
 //2020 and then multiply the three numbers together
-//input format: 16-17 w: wwwhwwwwwwwwwwwwq
+//input format: 16-17 w: Linux VERSION 
 #include <stdbool.h>
 #include <string.h>
 #include <stdio.h>
@@ -18,7 +18,6 @@ typedef struct metaPassport{
 int countGoodPassport(char *, int, int, int, char* []);
 int loadPassports(char *, int, int, int, char* []);
 void countLines(char[], struct metaPassport*);
-int countPassports(char[]);
 int processPassport(char *[], int, int, int);
 
 const char * passport[] = { "byr" , "iyr", "eyr", "hgt", "hcl", "ecl", "pid", "cid"};  
@@ -27,36 +26,41 @@ int main(){
     struct metaPassport *pmPassport = (struct metaPassport *) malloc (sizeof (struct metaPassport));
     pmPassport->longestLine = 0; 
     pmPassport->lineCounter = 0;
+    pmPassport->blankLine = 0;
+    int numOfGoodPassports = 0;  
     int arrSize = 0; 
     int result = 0;
 //    countLines("/home/admin/Programming/c_sources/aoc/d4-test-in.txt", pmPassport );
-   countLines("/home/admin/Programming/c_sources/aoc/d4-in.txt", pmPassport );
+    countLines("/home/admin/Programming/c_sources/aoc/d4-in.txt", pmPassport );
 //    printf("%i\n", arrSize = countLines("C:\\Users\\slaan\\source\\c_sources\\aoc\\d4-test-in.txt"));
     const int LINE_LENGTH = pmPassport->longestLine;
     const int LINE_COUNT = pmPassport->lineCounter;
     const int PASSPORT_COUNT = pmPassport->blankLine;
     char *lnArr[LINE_COUNT];
-    char *lnArr1[LINE_COUNT];
     printf("\nLine count: %i\nLongest Line: %i\nNumber of passports: %d\n",\
            pmPassport->lineCounter,  pmPassport->longestLine, pmPassport->blankLine);
 //    loadPassports("/home/admin/Programming/c_sources/aoc/d4-test-in.txt", LINE_LENGTH,\
                   PASSPORT_COUNT, LINE_COUNT, lnArr);
     loadPassports("/home/admin/Programming/c_sources/aoc/d4-in.txt", LINE_LENGTH,\
                   PASSPORT_COUNT, LINE_COUNT, lnArr);
-//    countGoodPassport("/home/admin/Programming/c_sources/aoc/d4-test-in.txt", LINE_LENGTH,\
-                  PASSPORT_COUNT, LINE_COUNT, lnArr);
-//    printf("Good Passports: %i\n********", countGoodPassport("/home/admin/Programming/c_sources/aoc/\
-                d4-in.txt", LINE_LENGTH,\
-                PASSPORT_COUNT, LINE_COUNT, lnArr));
+//    free(lnArr);
+//    numOfGoodPassports = countGoodPassport("/home/admin/Programming/c_sources/aoc/d4-test-in.txt",\
+        LINE_LENGTH,PASSPORT_COUNT, LINE_COUNT, lnArr);
+    numOfGoodPassports = countGoodPassport("/home/admin/Programming/c_sources/aoc/d4-in.txt",\
+            LINE_LENGTH, PASSPORT_COUNT, LINE_COUNT, lnArr);
+//    free(lnArr);
+    printf("Number of Good Passports: %i\n", numOfGoodPassports);
+
 }
 
 int loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount, char *linePTR[] ){
     FILE *fps; 
     int  numLines = 0;
-    size_t lnLen = 0;
+    ssize_t lnLen = 0;
     char *line;
     char *curLine;
     size_t bufsize = lineLength;
+    printf("bufsize is: %li \n", bufsize);
     fps = fopen(in_data, "r");
     if(fps == NULL){
         printf("error opening the file %s\n", in_data);
@@ -66,10 +70,12 @@ int loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount, ch
 //    line = (char *) malloc(lineLength * sizeof(char));
     line = (char *) malloc(bufsize* sizeof(char));
     while ((lnLen = getline(&line, &bufsize, fps)) > 0){
-        printf("\nlnLen = %i\n", lnLen);
-        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
+//        printf("\nlnLen = %i\n", lnLen);
+        if ( numLines >= lnCount || ((curLine = (char *)  malloc (bufsize * sizeof (char))) == NULL)){
 //        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen )) == NULL)){
             printf("\n****Error, exiting****\n");
+//            fclose(fps);
+            free(line);
             return -1;
         }
         else {
@@ -78,19 +84,19 @@ int loadPassports(char in_data[], int lineLength, int numPasspts,int lnCount, ch
             strcpy(curLine, line);
             linePTR[numLines++] = curLine;
         }
-        printf("\nlnLen = %i\n", lnLen);
- 
+        printf("lnLen = %i\n", lnLen);
+//        free(line);
     }
 //%20[^\n]
     fclose(fps);
+    free(line);
     return numLines;
-//    free(line);
 }
 
 int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount, char *linePTR[] ){
     FILE *fps; 
     int  numLines = 0;
-    size_t lnLen;
+    ssize_t lnLen;
     int addGoodPassport, numFieldsInPass, byr , iyr, eyr, hgt, hcl, ecl, pid, cid;
     numFieldsInPass = addGoodPassport = byr = iyr = eyr = hgt = hcl = ecl = pid = cid = 0;
     int i, j, k = 0;
@@ -109,13 +115,16 @@ int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount
         if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen * sizeof (char))) == NULL)){
 //        if ( numLines >= lnCount || ((curLine = (char *)  malloc (lnLen )) == NULL)){
             printf("\n****Finished processin, exiting****\n");
-            return -1;
+            free(line);
+//            fclose(fps);
+            return addGoodPassport; 
         }
         else {
             //line[lnLen - 1] = '\0'; //remove the blank line
             //line[lnLen] = '\0';
             strcpy(curLine, line);
             if (isspace(linePTR[numLines][0])){
+//            if (isspace(linePTR[numLines][0])){
                 //RESET ALL FIELD COUNTERS
                 if (((numFieldsInPass >= 7) && (cid == 0)) || numFieldsInPass == 8 ){
                     printf("Good Passports = %i\n", ++addGoodPassport);
@@ -154,7 +163,11 @@ int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount
                 }
             }
             linePTR[numLines++] = curLine;
+//            free(line);
         }
+    fclose(fps);
+    free(line);
+    return addGoodPassport;
     }
 //    printf(" countGoodPassports = %i\n", countGoodPassports);
 /*
@@ -164,8 +177,6 @@ int countGoodPassport(char in_data[], int lineLength, int numPasspts,int lnCount
         return true;
         }
 */
-
-
 
 //ssize_t getline (char **lineptr, size_t *n, FILE *stream);
 /* countLines:
@@ -191,6 +202,7 @@ void countLines(char s[], struct metaPassport *sPassport){
             ++(sPassport->lineCounter);
             if ( n > sPassport->longestLine)
                 sPassport->longestLine = n++;
+//                sPassport->longestLine = ++n;
             n = 0;
         }
         else 
