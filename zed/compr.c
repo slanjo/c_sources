@@ -1,3 +1,4 @@
+//This code demonstrates how to create an array of function pointers
 #include <stdio.h> 
     void f1(int var)
     {
